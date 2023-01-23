@@ -47,7 +47,7 @@ All design credit goes to Brittany, I simply modified the website in a large num
 - Added my Stack Overflow link to the left nav bar area.
 - Many other small/cosmetic changes.
 
-Feel free to fork this repo but please give me proper credit by linking back to [scottgrivner.dev](https://scottgrivner.dev) as well as the original author, Brittany Chiang's website [brittanychiang.com](https://brittanychiang.com) on your own site or in your README. Thanks!
+Feel free to fork this repo but please give me proper credit by linking back to [scottgrivner.dev](https://scottgrivner.dev) as well as the original author, Brittany Chiang's website [brittanychiang.com](https://brittanychiang.com), on your own site or in your README. Thanks!
 
 ## 🛠 Installation & Set Up
 
