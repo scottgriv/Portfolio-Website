@@ -10,3 +10,5 @@ package-lock.json
 
 .vscode/
 portfolio-website.code-workspace
+
+**/.DS_Store

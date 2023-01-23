@@ -1,37 +1,55 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="./src/images/logo.png" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  scottgrivner.dev
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The first iteration of <a href="https://scottgrivner.dev" target="_blank">scottgrivner.dev</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+![demo](./src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
-Test
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+This repo was originally forked from
+[Brittany Chiang's v4 repo](https://github.com/bchiang7/v4).
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+All design credit goes to Brittany, I simply modified the website in a large number of areas.
 
-### TL;DR
+I've made a number of changes to the original site:
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+- Changed the color/theme using the below `CSS` in the `variables.js` file:
+
+```css
+--dark-navy: #020c1b;
+--navy: #979797;
+--light-navy: #112240;
+--lightest-navy: #233554;
+--navy-shadow: rgba(2, 12, 27, 0.7);
+--dark-slate: #495670;
+--slate: #000000;
+--light-slate: #ff0000;
+--lightest-slate: #ffffff;
+--white: #ff0000;
+--green: #ff0000;
+--green-tint: rgba(81, 81, 81, 0.1);
+--pink: #ffffff;
+--blue: #57cbff;
+```
+
+- Created custom SVG logo/icons.
+- Updated the About, Experience, Work, and Contact areas to fit my personal needs.
+- Added a GitHub link to this repo in the website footer.
+- Removed the hover overlay on the project and about photos.
+- Updated a number of images/icons.
+- Added my Stack Overflow link to the left nav bar area.
+- Many other small/cosmetic changes.
+
+Feel free to fork this repo but please give me proper credit by linking back to [scottgrivner.dev](https://scottgrivner.dev) as well as the original author, Brittany Chiang's website [brittanychiang.com](https://brittanychiang.com) on your own site or in your README. Thanks!
 
 ## 🛠 Installation & Set Up
 
@@ -50,7 +68,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 3. Install dependencies
 
    ```sh
-   yarn
+   yarn install
    ```
 
 4. Start the development server
