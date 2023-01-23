@@ -81,9 +81,11 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
+      /*
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
+      */
     }
 
     &:before,
@@ -125,7 +127,42 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Kotlin (Android)',
+    'Dart (Flutter)',
+    'Node.js',
+    'Python',
+    'NoSQL Databases',
+    'React',
+    'GraphQL',
+    'TypeScript',
+    'Firebase',
+    'Rust',
+    'Ruby',
+    'Go',
+  ];
+  const currentSkills = [
+    'Swift (iOS)',
+    'Objective-C (iOS)',
+    'Git',
+    'Docker',
+    'Xcode',
+    'VS Code',
+    'Node.js',
+    'Python',
+    'PHP',
+    'Regular Expressions',
+    'Terminal',
+    'APIs/Web Services/Postman',
+    'UI & UX Design/Sketch & Figma',
+    'AGILE/Jira',
+    'Data Warehousing & BI',
+    'Cloud Infrastructure',
+    'Integration Architecture',
+    'Networking & Security',
+    'Technical Documentation',
+    'End-User Training',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,32 +172,45 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Scott and I'm a Full Stack Mobile Developer with over a decade of
+              professional experience.
+            </p>
+
+            <p>
+              My interest in development began in 2002, at the age of 13, when I decided to create
+              my first website. A decade later, in 2012, I graduated with a bachelor's degree from{' '}
+              <a href="https://www.bloomu.edu/" target="_blank" rel="noreferrer">
+                Bloomsburg University
+              </a>
+              . My degree was more business oriented, but my passion for technology never faded. Not
+              long after graduation, I decided to get back into development by creating my first
+              mobile application for Android, and migrated to iOS development later that year.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.talenenergy.com/plant/susquehanna/" target="_blank" rel="noreferrer">
+                a nuclear power plant
+              </a>
+              , and{' '}
+              <a href="https://alleima.com/" target="_blank" rel="noreferrer">
+                a huge steel manufacturing company
+              </a>
+              .
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              In my spare time, I enjoy learning new languages and frameworks, however, my main
+              focus these days is building and designing mobile applications for iOS. When I’m not
+              typing on a laptop, you can find me outdoors; enjoying nature, camping, hiking, and
+              most importantly: fishing.
             </p>
 
+            <p>Here are some of my current skills:</p>
+            <ul className="skills-list">
+              {currentSkills &&
+                currentSkills.map((currentSkill, i) => <li key={i}>{currentSkill}</li>)}
+            </ul>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
