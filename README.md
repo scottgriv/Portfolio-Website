@@ -18,9 +18,7 @@
 This repo was originally forked from
 [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4).
 
-All design credit goes to Brittany, I simply modified the website in a large number of areas.
-
-I've made a number of changes to the original site:
+All design credit goes to Brittany, I simply modified the website in a large number of areas (explained below):
 
 - Changed the color/theme using the below `CSS` in the `variables.js` file:
 
