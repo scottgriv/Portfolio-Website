@@ -121,6 +121,10 @@ const StyledProject = styled.li`
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
+
+    @media (max-width: 768px) {
+      color: var(--black);
+    }
   }
 
   .project-title {
@@ -132,7 +136,7 @@ const StyledProject = styled.li`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      color: var(--black);
 
       a {
         position: static;
@@ -165,7 +169,7 @@ const StyledProject = styled.li`
       padding: 20px 0;
       background-color: transparent;
       box-shadow: none;
-
+      color: var(--black);
       &:hover {
         box-shadow: none;
       }
@@ -203,7 +207,7 @@ const StyledProject = styled.li`
 
       li {
         margin: 0 10px 5px 0;
-        color: var(--lightest-slate);
+        color: var(--black);
       }
     }
   }
@@ -364,7 +368,7 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a href={external ? external : github ? github : '#'}>{title}</a>
                     </h3>
 
                     <div

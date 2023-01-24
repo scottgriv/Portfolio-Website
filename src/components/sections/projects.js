@@ -152,6 +152,7 @@ const StyledProject = styled.li`
     padding: 0;
     margin: 20px 0 0 0;
     list-style: none;
+    color: #ff6600;
 
     li {
       font-family: var(--font-mono);
