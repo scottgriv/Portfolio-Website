@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer based in North Eastern Pennsylvania, USA. I specialize in building
+        I’m a Software Engineer based in North Eastern Pennsylvania, USA. I specialize in building
         (and occasionally designing) mobile applications, full-stack development, and integration.
         Currently, I’m focused on integration architecture at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">

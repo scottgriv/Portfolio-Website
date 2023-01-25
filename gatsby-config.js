@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Scott Grivner | Software Engineer',
     description:
-      'Scott Grivner is a software engineer who specializes in building (and occasionally designing) mobile applications.',
+      'Scott Grivner is a Software Engineer who specializes in building (and occasionally designing) mobile applications.',
     siteUrl: 'https://scottgrivner.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
