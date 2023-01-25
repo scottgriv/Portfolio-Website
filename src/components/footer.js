@@ -88,7 +88,7 @@ const Footer = () => (
 
     <StyledCredit tabindex="-1">
       <a href="https://github.com/scottgriv/portfolio-website">
-        <Icon name="GitHub" className="svg" />
+        <Icon name="Fork" className="svg" />
       </a>
     </StyledCredit>
   </StyledFooter>

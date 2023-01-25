@@ -22,7 +22,7 @@
 This repo was originally forked from
 [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4).
 
-All design credit goes to Brittany, I simply modified the website in a large number of areas (explained below):
+Website design credit goes to Brittany, I modified the website to fit my needs (explained below):
 
 - Changed the color/theme using the below `CSS` in the `variables.js` file:
 
@@ -47,7 +47,7 @@ All design credit goes to Brittany, I simply modified the website in a large num
 - Updated the About, Experience, Work, and Contact areas to fit my personal needs.
 - Added a GitHub link to this repo in the website footer.
 - Removed the hover overlay on the project and about photos.
-- Updated a number of images/icons.
+- Updated a number of images/icons/links.
 - Added my Stack Overflow link to the left nav bar area.
 - Many other small/cosmetic changes.
 
