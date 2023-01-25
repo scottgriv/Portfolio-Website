@@ -1,5 +1,7 @@
 <div align="center">
-  <img alt="Logo" src="./src/images/logo.png" />
+      <a href="https://scottgrivner.dev" target="_blank">
+         <img alt="Logo" src="./src/images/logo.png" />
+    </a>
 </div>
 <h1 align="center">
   scottgrivner.dev
