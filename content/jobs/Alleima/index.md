@@ -12,7 +12,7 @@ url: 'https://alleima.com/'
 - Created Web Services using REST/SOAP APIs and .NET C#.
 - Managed Big Data by developing reports and data warehouses using multiple data sources.
 - Managed and implemented a number of industry leading business applications.
-- Assisted in creating a large customer facing website used for eCommerce.
+- Assisted in creating a large customer facing mobile website used for eCommerce.
 - Tasked with leading multiple large scale IT projects and budgets on a yearly basis.
 - Assisted in troubleshooting high priority tickets around our global ERP system.
 - Spoke at multiple tech conferences highlighting our technology usage and strategies.
