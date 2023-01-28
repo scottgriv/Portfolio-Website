@@ -24,25 +24,7 @@ This repo was originally forked from
 
 Website design credit goes to Brittany, I modified the website to fit my needs (explained below):
 
-- Changed the color/theme using the below `CSS` in the `variables.js` file:
-
-```css
---dark-navy: #020c1b;
---navy: #979797;
---light-navy: #112240;
---lightest-navy: #233554;
---navy-shadow: rgba(2, 12, 27, 0.7);
---dark-slate: #495670;
---slate: #000000;
---light-slate: #ff0000;
---lightest-slate: #ffffff;
---white: #ff0000;
---green: #ff0000;
---green-tint: rgba(81, 81, 81, 0.1);
---pink: #ffffff;
---blue: #57cbff;
-```
-
+- Changed the color/theme using the `CSS` color reference on the bottom of this page in the `variables.js` file:
 - Created custom SVG logo/icons.
 - Updated the About, Experience, Work, and Contact areas to fit my personal needs.
 - Added a GitHub link to this repo in the website footer.
@@ -95,13 +77,14 @@ Feel free to fork this repo but please give me proper credit by linking back to 
 
 ## 🎨 Color Reference
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Color         | Hex                                                                |
+| ------------- | ------------------------------------------------------------------ |
+| Dark Navy     | ![#020c1b](https://via.placeholder.com/10/020c1b?text=+) `#020c1b` |
+| Light Navy    | ![#112240](https://via.placeholder.com/10/112240?text=+) `#112240` |
+| Lightest Navy | ![#233554](https://via.placeholder.com/10/233554?text=+) `#233554` |
+| Dark Slate    | ![#495670](https://via.placeholder.com/10/495670?text=+) `#495670` |
+| Gray          | ![#979797](https://via.placeholder.com/10/979797?text=+) `#979797` |
+| Red           | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) `#ff0000` |
+| Blue          | ![#57cbff](https://via.placeholder.com/10/57cbff?text=+) `#57cbff` |
+| Black         | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| White         | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
