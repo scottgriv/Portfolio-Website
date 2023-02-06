@@ -172,8 +172,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Scott and I'm a Full Stack Mobile Developer with over a decade of
-              professional experience.
+              Hello! My name is Scott and I'm a Software Engineer with over a decade of professional
+              experience.
             </p>
 
             <p>
@@ -189,7 +189,10 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.talenenergy.com/plant/susquehanna/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.talenenergy.com/plant/susquehanna/"
+                target="_blank"
+                rel="noreferrer">
                 a nuclear power plant
               </a>
               , and{' '}
@@ -200,10 +203,9 @@ const About = () => {
             </p>
 
             <p>
-              In my spare time, I enjoy learning new languages and frameworks, however, my main
-              focus these days is building and designing mobile applications for iOS. When I’m not
-              typing on a laptop, you can find me outdoors; enjoying nature, camping, hiking, and
-              most importantly: fishing.
+              In my spare time, I enjoy learning new programming languages and frameworks. When I’m
+              not typing on a laptop, you can find me outdoors; enjoying nature, camping, hiking,
+              and most importantly: fishing.
             </p>
 
             <p>Here are some of my current skills:</p>
