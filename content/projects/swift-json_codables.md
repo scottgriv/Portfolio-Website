@@ -1,5 +1,5 @@
 ---
-date: '2022-12-16'
+date: '2022-12-08'
 title: 'swift-json_codables'
 github: 'https://github.com/scottgriv/swift-json_codables'
 external: ''

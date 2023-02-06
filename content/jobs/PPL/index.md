@@ -9,6 +9,7 @@ url: 'https://www.talenenergy.com/plant/susquehanna/'
 
 - Talen Energy (formerly PPL Corporation - Susquehanna Nuclear Power Plant)
 - Created websites for the Effluents & Plant Security Departments using JavaScript, HTML, and CSS.
-- Implemented network security measures to protect data, software, and hardware; continually passed quality control audit checks.
-- Proctored training seminars to aid PPL employees with their yearly training software; used problem-solving skills and extensive knowledge of operations to provide direction and accurate answers.
+- Worked closely with Management & Security. Implemented network security measures to protect data, software, and hardware; continually passed quality control audit checks.
+- Analyzed, researched, and resolved problems for over 200 personnel including Foremen and Managers. Utilized information system methodologies and techniques to analyze business activities and solve problems.
+- Proctored training seminars to aid PPL employees with their yearly training software. Applied problem-solving skills and extensive knowledge of operations to provide direction and accurate answers.
 - Recipient of the PPL Well-Rounded Employee Scholarship.

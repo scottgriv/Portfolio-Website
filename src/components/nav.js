@@ -124,6 +124,7 @@ const StyledLinks = styled.div`
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
     font-size: var(--fz-xs);
+    display: none;
   }
 `;
 
