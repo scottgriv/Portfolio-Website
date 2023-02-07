@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-A simple Python script to delete files in a specified directory.
+A simple Python script to quickly and accurately mass delete files in a specified directory.

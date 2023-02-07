@@ -65,13 +65,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Software Engineer based in North Eastern Pennsylvania, USA. I specialize in Data and
-        Integration Architecture, full-stack development, and mobile applications. Currently, I’m
-        focused on integration architecture at{' '}
+        I’m a Software Engineer based in North Eastern Pennsylvania, USA. I specialize in data and
+        integration architecture, full-stack development, and mobile applications. Currently, I work
+        as an integration architect at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
-        </a>
-        .
+        </a>{' '}
+        where I design and deliver effective integration solutions.
       </p>
     </>
   );

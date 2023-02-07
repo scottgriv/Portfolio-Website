@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -130,8 +130,6 @@ const About = () => {
   const skills = [
     'Kotlin (Android)',
     'Dart (Flutter)',
-    'Node.js',
-    'Python',
     'NoSQL Databases',
     'React',
     'GraphQL',
@@ -140,28 +138,59 @@ const About = () => {
     'Rust',
     'Ruby',
     'Go',
+    'Kubernetes',
+    'Gatsby | Netlify',
   ];
+
   const currentSkills = [
     'Swift (iOS)',
     'Objective-C (iOS)',
-    'Git',
+    'SQL Databases',
+    'Git | Version Control',
     'Docker',
     'Xcode',
     'VS Code',
     'Node.js',
     'Python',
     'PHP',
-    'Regular Expressions',
     'Terminal',
-    'APIs/Web Services/Postman',
-    'UI & UX Design/Sketch & Figma',
-    'AGILE/Jira',
-    'Data Warehousing & BI',
-    'Cloud Infrastructure',
-    'Integration Architecture',
+    'JSON | XML | XSLT',
+    'Regular Expressions',
+    'APIs | Web Services | Postman',
+    'UI & UX Design/Sketch | Prototyping | Figma',
+    'Algorithms | Data Structures',
+    'AI Systems | R&D',
+    'Data Analytics',
+    'Data Modeling | Mapping',
+    'Data Warehousing | BI | ETL',
+    'Cloud Ops & Infrastructure (AWS | GCP | Azure)',
+    'Integration & Data Architecture',
     'Networking & Security',
+    'Machine Learning',
+    'AGILE Methodologies | JIRA',
+    'Cross Functional Leadership',
     'Technical Documentation',
-    'End-User Training',
+    'End-User Training | User Stories',
+    'FTP | SMB | MQ',
+    'SSL Certificates',
+  ];
+
+  const busAppSkills = [
+    'Microsoft 365 Applications',
+    'InforOS | Integration Systems',
+    'EAM | Asset Management Systems',
+    'Infor ION & ION API',
+    'Infor ERP LX | ERP Systems',
+    'Infor CRM | CRM Systems',
+    'Infor IDM | Document Management Systems',
+    'Infor Birst | PowerBI | Qlik Sense | IBM Cognos',
+    'IBM i/iSeries/AS400 | DB2',
+    'Data Lake | Business Vault',
+    'Logistics | Warehouse Systems',
+    'SAP | Financial Systems',
+    'QMS & EHS Systems',
+    'Shop Floor Control Systems',
+    'Packaging Labels | Printers',
   ];
 
   return (
@@ -183,8 +212,9 @@ const About = () => {
                 Bloomsburg University
               </a>
               . My degree was more business oriented, but my passion for technology never faded. Not
-              long after graduation, I decided to get back into development by creating my first
-              mobile application for Android, and migrated to iOS development later that year.
+              long after graduation, I decided to get back into development by teaching myself how
+              to program by creating my first mobile application for Android, and migrated to iOS
+              development shortly after.
             </p>
 
             <p>
@@ -214,11 +244,17 @@ const About = () => {
                 currentSkills.map((currentSkill, i) => <li key={i}>{currentSkill}</li>)}
             </ul>
             <p>Here are a few technologies I’ve been working with recently:</p>
+            <ul className="skills-list">
+              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+            <p>
+              Here is a list of business applications that I've worked with throughout my career:
+            </p>
+            <ul className="skills-list">
+              {busAppSkills &&
+                busAppSkills.map((busAppSkills, i) => <li key={i}>{busAppSkills}</li>)}
+            </ul>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>
@@ -227,7 +263,7 @@ const About = () => {
               className="img"
               src="../../images/me.jpg"
               width={500}
-              quality={95}
+              quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />

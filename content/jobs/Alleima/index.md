@@ -19,7 +19,7 @@ url: 'https://alleima.com/'
 - Provided valuable input on global integration management at Alleima’s HQ in Stockholm, Sweden.
 - Implemented Disaster Recovery plans and contributed to the CI/CD Pipeline by implementing a Git Version Control system on large scale business application development.
 - Created JSON & XML Business Object Documents (BODS) conforming to industry XML standards (OAGIS).
-- Proficient Knowledge in Infor Business Applications such as: InforOS, ION, EAM, ERP LX, CRM, IDM, BIRST.
+- Proficient Knowledge in Infor Business Applications such as: InforOS, ION, EAM, ERP LX, CRM, IDM, Birst.
 - Knowledgeable in other Business Applications such as: IBM Cognos, Qlik Sense, PowerBI.
 - Interacted with key managers and internal users regarding timelines, technical issues, and infrastructure integration.
 - Provided technical support and assessment as required to ensure smooth team operations.
