@@ -44,6 +44,9 @@ const StyledText = styled.div`
         line-height: 12px;
       }
     }
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(2, minmax(140px, 200px));
+    }
   }
 `;
 const StyledPic = styled.div`
