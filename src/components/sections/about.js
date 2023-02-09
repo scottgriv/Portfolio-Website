@@ -170,7 +170,7 @@ const About = () => {
     'Integration & Data Architecture',
     'Networking & Security',
     'Machine Learning',
-    'AGILE Methodologies | JIRA',
+    'AGILE Methodologies | Jira',
     'Cross Functional Leadership',
     'Technical Documentation',
     'End-User Training | User Stories',
