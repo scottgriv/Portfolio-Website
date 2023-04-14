@@ -1,5 +1,5 @@
 ---
-date: '2022-12-11'
+date: '2022-12-14'
 title: 'ruby-bookstore_demo'
 github: 'https://github.com/scottgriv/ruby-bookstore_demo'
 external: ''

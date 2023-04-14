@@ -1,5 +1,5 @@
 ---
-date: '2022-12-12'
+date: '2022-12-13'
 title: 'typescript-graphql_server_demo'
 github: 'https://github.com/scottgriv/typescript-graphql_server_demo'
 external: ''

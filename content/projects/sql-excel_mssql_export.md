@@ -1,5 +1,5 @@
 ---
-date: '2022-12-16'
+date: '2022-12-06'
 title: 'sql-excel_mssql_export'
 github: 'https://github.com/scottgriv/sql-excel_mssql_export'
 external: ''

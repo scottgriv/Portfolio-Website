@@ -1,5 +1,5 @@
 ---
-date: '2022-12-15'
+date: '2022-12-16'
 title: 'sql-useful_db2_queries'
 github: 'https://github.com/scottgriv/sql-useful_db2_queries'
 external: ''
