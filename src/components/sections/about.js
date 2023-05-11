@@ -130,70 +130,121 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
+  const currentBizSkills = [
+    'REST/SOAP APIs',
+    'Mobile Application Development',
+    'Full-Stack Development',
+    'Front-End Development',
+    'Integration Architecture',
+    'Technology Roadmaps',
+    'Technology Stacks | Software Solutions',
+    'Management | Customer Service',
+    'Budgeting Skills',
+    'Public Speaking | Presentation Skills',
+    'Algorithms',
+    'Data Structures',
+    'Data Modeling',
+    'Data Analytics',
+    'Data Warehousing & ETL',
+    'Business Intelligence',
+    'Business Reporting',
+    'Machine Learning',
+    'Cloud Computing',
+    'Computer Science',
+    'UI & UX Design',
+    'Version Control',
+    'SQL Databases',
+    'NoSQL Databases',
+    'Container Management',
+    'AI Systems',
+    'Web Servers',
+    'Prototyping',
+    'AGILE Methodologies',
+    'Cybersecurity',
+    'Networking',
+    'Finance | Accounting',
+    'Cross Functional Leadership',
+    'Technical Documentation',
+    'User Stories',
+    'End-User Training',
+    'Regular Expressions (RegEx)',
+    'DevOps',
+    'CI/CD Pipeline',
+    'FTP | SMB | MQ',
+    'TCP/IP | HTTP Protocols',
+    'SSL Certificates',
+  ];
+
+  const currentLanguages = [
+    'Swift (iOS)',
+    'Objective-C (iOS)',
+    'Python',
+    'Node.js',
+    'PHP',
+    'JSON | XML | XSLT',
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'AJAX',
+    'jQuery',
+    'Bootstrap',
+    'C#',
+    'SQL Server',
+    'MySQL',
+    'MariaDB',
+    'SQLite',
+    'DB2',
+    'PostgreSQL',
+    'Powershell',
+    'Bash',
+    'Xcode',
+    'Visual Studio',
+    'VS Code',
+    'Eclipse',
+    '.NET | IIS',
+    'Apache | Tomcat',
+  ];
+
+  const futureLanguages = [
     'Kotlin (Android)',
     'Dart (Flutter)',
-    'NoSQL Databases',
+    'MongoDB | CouchDB',
     'React',
     'GraphQL',
     'TypeScript',
     'Firebase',
     'Rust',
     'Ruby',
+    'Java',
     'Go',
+    'Express.js',
     'Kubernetes',
-    'Gatsby | Netlify',
+    'Gatsby',
+    'Netlify',
   ];
 
-  const currentSkills = [
-    'Swift (iOS)',
-    'Objective-C (iOS)',
-    'SQL Databases',
-    'Git | GitHub | Version Control',
-    'Docker',
-    'Xcode',
-    'VS Code',
-    'Node.js',
-    'Python',
-    'PHP',
-    'Terminal',
-    'JSON | XML | XSLT',
-    'Regular Expressions',
-    'APIs | Web Services | Postman',
-    'UI & UX Design/Sketch | Prototyping | Figma',
-    'Algorithms | Data Structures',
-    'AI Systems | R&D',
-    'Data Analytics',
-    'Data Modeling | Mapping',
-    'Data Warehousing | BI | ETL',
-    'Cloud/DevOps & Infrastructure (AWS | GCP | Azure | SaaS)',
-    'Integration & Data Architecture',
-    'Networking & Security',
-    'Machine Learning',
-    'AGILE Methodologies | Jira',
-    'Cross Functional Leadership',
-    'Technical Documentation',
-    'End-User Training | User Stories',
-    'FTP | SMB | MQ',
-    'SSL Certificates',
-  ];
-
-  const busAppSkills = [
-    'Microsoft 365 Applications',
-    'InforOS | Integration Systems',
-    'EAM | Asset Management Systems',
-    'Infor ION & ION API',
-    'Infor ERP LX | ERP Systems',
-    'Infor CRM | CRM Systems',
-    'Infor IDM | Document Management Systems',
-    'Infor Birst | PowerBI | Qlik Sense | IBM Cognos',
-    'IBM i/iSeries/AS400 | DB2',
-    'Data Lake | Business Vault',
-    'Logistics | Warehouse Systems',
-    'SAP | Financial Systems',
-    'QMS & EHS Systems',
-    'Shop Floor Control Systems',
+  const currentApps = [
+    'Cloud Infrastructure (AWS | GCP | Azure | SaaS)',
+    'Version Control (Git | GitHub)',
+    'Issue Tracking (ServiceNow | Jira)',
+    'Container Management (Docker)',
+    'Monitoring Solutions (Site24x7)',
+    'Design Software (Sketch | Figma | Adobe Photoshop)',
+    'Integration Systems (MQ | JMS | InforOS | Infor ION & API)',
+    'Asset Management Systems (Infor EAM)',
+    'ERP Systems (Infor ERP LX | M3 | IDM)',
+    'CRM Systems (Infor CRM | Microsoft Dynamics)',
+    'Document Management Systems (Metafile | Infor IDM)',
+    'Reporting Systems (Infor Birst | MS PowerBI | Qlik Sense | IBM Cognos)',
+    'Operating Systems (IBM i/iSeries/AS400 | Windows | Mac)',
+    'Warehouse Systems (Logistics)',
+    'Financial Systems (SAP | ERP LX)',
+    'EHS Systems (QMS | CompliantPro)',
+    'Shop Floor Control Systems (TouchPath)',
+    'Communications (Twilio)',
     'Packaging Labels | Printers',
+    'Microsoft 365 (Teams | Outlook | OneNote | OneDrive)',
+    'Microsoft 365 (Excel | Word | PowerPoint | Visio)',
   ];
 
   return (
@@ -204,20 +255,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Scott and I'm a Software Engineer with over a decade of professional
-              experience.
+              Hello! My name is Scott and I'm a Software Engineer & Architect with over a decade of
+              professional experience.
             </p>
 
             <p>
-              My interest in development began in 2002, at the age of 13, when I decided to create
-              my first website. A decade later, in 2012, I graduated with a bachelor's degree from{' '}
+              My interest in programming began in 2002, at the age of 13, when I decided to create
+              my first website and Windows program.
+            </p>
+
+            <p>
+              A decade later, in 2012, I graduated with a bachelor's degree from{' '}
               <a href="https://www.bloomu.edu/" target="_blank" rel="noreferrer">
                 Bloomsburg University
               </a>
               . My degree was more business oriented, but my passion for technology never faded. Not
               long after graduation, I decided to get back into development by teaching myself how
-              to program by creating my first mobile application for Android, and migrated to iOS
-              development shortly after.
+              to program by creating my first mobile application.
             </p>
 
             <p>
@@ -241,21 +295,29 @@ const About = () => {
               and most importantly: fishing.
             </p>
 
-            <p>Here are some of my current skills:</p>
+            <p>Here are some of my current overall skills:</p>
             <ul className="skills-list">
-              {currentSkills &&
-                currentSkills.map((currentSkill, i) => <li key={i}>{currentSkill}</li>)}
-            </ul>
-            <p>Here are a few technologies I’ve been working with recently:</p>
-            <ul className="skills-list">
-              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+              {currentBizSkills &&
+                currentBizSkills.map((currentBizSkills, i) => <li key={i}>{currentBizSkills}</li>)}
             </ul>
             <p>
-              Here is a list of business applications that I've worked with throughout my career:
+              Here are some of the programming languages, frameworks, and IDEs I'm familiar with:
             </p>
             <ul className="skills-list">
-              {busAppSkills &&
-                busAppSkills.map((busAppSkills, i) => <li key={i}>{busAppSkills}</li>)}
+              {currentLanguages &&
+                currentLanguages.map((currentLanguages, i) => <li key={i}>{currentLanguages}</li>)}
+            </ul>
+            <p>
+              Here are a few programming languages and technologies that I’ve been working with
+              recently:
+            </p>
+            <ul className="skills-list">
+              {futureLanguages &&
+                futureLanguages.map((futureLanguages, i) => <li key={i}>{futureLanguages}</li>)}
+            </ul>
+            <p>Here's a list of enterprise applications and technologies that I'm familiar with:</p>
+            <ul className="skills-list">
+              {currentApps && currentApps.map((currentApps, i) => <li key={i}>{currentApps}</li>)}
             </ul>
           </div>
         </StyledText>

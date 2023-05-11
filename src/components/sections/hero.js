@@ -61,17 +61,17 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Scott Grivner.</h2>;
-  const three = <h3 className="medium-heading">I make things that are fun to click on.</h3>;
+  const three = <h3 className="medium-heading">I connect business with technology.</h3>;
   const four = (
     <>
       <p>
-        I’m a Software Engineer based in North Eastern Pennsylvania, USA. I specialize in data and
-        integration architecture, full-stack development, and mobile applications. Currently, I work
-        as an integration architect at{' '}
+        I’m a Software Engineer & Architect based in North Eastern Pennsylvania, USA. I specialize
+        in enterprise and integration architecture, data analysis, full-stack development, and
+        mobile application development & design. Currently, I work as an integration architect at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
         </a>{' '}
-        where I design and deliver effective integration solutions.
+        where I develop and deliver effective enterprise technology solutions.
       </p>
     </>
   );
