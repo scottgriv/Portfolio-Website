@@ -2,6 +2,8 @@ export { default as IconAppStore } from './appstore';
 export { default as IconBookmark } from './bookmark';
 export { default as IconCodepen } from './codepen';
 export { default as IconStackOverflow } from './stackoverflow';
+export { default as IconMedium } from './medium';
+export { default as IconBuyMeACoffee } from './buymeacoffee';
 export { default as IconExternal } from './external';
 export { default as IconFolder } from './folder';
 export { default as IconFork } from './fork';

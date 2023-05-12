@@ -5,6 +5,8 @@ import {
   IconBookmark,
   IconCodepen,
   IconStackOverflow,
+  IconMedium,
+  IconBuyMeACoffee,
   IconExternal,
   IconFolder,
   IconFork,
@@ -28,6 +30,10 @@ const Icon = ({ name }) => {
       return <IconCodepen />;
     case 'StackOverflow':
       return <IconStackOverflow />;
+    case 'Medium':
+      return <IconMedium />;
+    case 'BuyMeACoffee':
+      return <IconBuyMeACoffee />;
     case 'External':
       return <IconExternal />;
     case 'Folder':

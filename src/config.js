@@ -8,15 +8,27 @@ module.exports = {
     },
     {
       name: 'StackOverflow',
-      url: 'https://stackoverflow.com/users/3092847/griv',
+      url: 'https://stackoverflow.com/u/3092847',
+    },
+    {
+      name: 'Codepen',
+      url: 'https://codepen.io/scottgriv',
     },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/scottgrivner/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/scottgriv',
+      name: 'Twitter',
+      url: 'https://twitter.com/scottgrivner',
+    },
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@scottgrivner',
+    },
+    {
+      name: 'BuyMeACoffee',
+      url: 'https://www.buymeacoffee.com/scottgriv',
     },
     /*
     {
