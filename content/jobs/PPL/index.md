@@ -2,7 +2,7 @@
 date: '2012-06-01'
 title: 'Web Developer'
 company: 'Talen Energy'
-subtitle: 'Formerly PPL Corporation'
+subtitle: 'Formerly PPL Corporation, Susquehanna Nuclear Power Plant'
 location: 'Berwick, PA'
 range: 'May 2012 - August 2012'
 type: 'Internship'
