@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I’m a Software Engineer & Architect based in North Eastern Pennsylvania, USA. I specialize
         in enterprise and integration architecture, data analysis, full-stack development, and
-        mobile application development & design. Currently, I work as an integration architect at{' '}
+        mobile application development & design. Currently, I work as an Integration Architect at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
         </a>{' '}
