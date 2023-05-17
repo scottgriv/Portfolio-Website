@@ -11,16 +11,16 @@ url: 'https://alleima.com/'
 
 - Tasked with developing and designing hundreds of system integrations and microservices between enterprise business applications for over a dozen locations across North and South America using a wide range of technologies.
 - Created web services using REST/SOAP APIs and .NET C#.
-- Migrated on-prem applications and software to cloud infrastructure using AWS and Azure..
+- Migrated on-prem applications and software to cloud infrastructure using AWS and Azure.
 - Created data warehouses and analytical reports using multiple data sources.
 - Managed and implemented a number of industry leading enterprise applications.
 - Assisted in creating a large customer facing mobile website used for eCommerce.
 - Tasked with leading multiple large scale IT projects and budgets on a yearly basis.
 - Tasked with purchasing enterprise software, infrastructure, and setting the organization's IT roadmap.
-- Assisted in troubleshooting high priority tickets for a variety of enterprise applications..
+- Implemented Disaster Recovery plans and contributed to the CI/CD Pipeline.
+- Assisted in troubleshooting high priority tickets for a variety of enterprise applications.
 - Spoke at multiple tech conferences highlighting our technology usage and strategies.
 - Provided valuable input on global integration management at Alleima’s HQ in Stockholm, Sweden.
-- Implemented Disaster Recovery plans and contributed to the CI/CD Pipeline.
 - Managed and designed a large number of Relational Databases (RDBMS) using SQL Server and DB2.
 - Created JSON & XML Business Object Documents (BODS) conforming to industry XML standards (OAGIS).
 - Proficient knowledge in a large number of enterprise applications such as: InforOS, Infor ION, Infor EAM, Infor ERP LX, Infor CRM, Infor IDM, Infor Birst, Microsoft Dynamics, Microsoft PowerBI, IBM Cognos.
