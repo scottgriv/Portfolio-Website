@@ -32,8 +32,8 @@ url: 'https://alleima.com/'
   - Ensure quote, sales order, purchase order, and invoice processing.
   - Maintenance to schedule work orders and preventative maintenance measures.
   - Storeroom personnel around asset audits, cycle counts, and stock levels.
-  - Production and shop floor personnel to develop product packing and shipping labels.
-  - Internal and external Sales teams to implement a CRM and eCommerce solution.
+  - Production and Shop Floor personnel to develop product packing and shipping labels.
+  - Internal and External Sales teams to implement a CRM and eCommerce solution.
   - Supply Chain for inventory forecasting, planning, and reporting.
   - EHS for safety reports, training qualifications, and QMS system maintenance.
   - Logistics to support their packing and shipping processes.
