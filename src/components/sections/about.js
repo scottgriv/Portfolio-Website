@@ -249,7 +249,11 @@ const About = () => {
             <p>
               In my spare time, I enjoy learning new programming languages, frameworks, and
               architecture methodologies. When I’m not typing on a laptop, you can find me outdoors;
-              enjoying nature, camping, hiking, and most importantly: fishing.
+              enjoying nature, camping, hiking, and most importantly:{' '}
+              <a href="https://fishbrain.com/anglers/scottgriv" target="_blank" rel="noreferrer">
+                fishing
+              </a>
+              .
             </p>
 
             <p>
