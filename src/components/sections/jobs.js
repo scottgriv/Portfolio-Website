@@ -115,7 +115,7 @@ const StyledHighlight = styled.div`
   @media (max-width: 600px) {
     top: auto;
     bottom: 0;
-    width: 0%;
+    width: 100%;
     max-width: var(--tab-width);
     height: 2px;
     margin-left: 50px;

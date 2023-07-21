@@ -1,5 +1,5 @@
 ---
-date: '2022-12-15'
+date: '2022-12-10'
 title: 'python-turing_machine'
 github: 'https://github.com/scottgriv/python-turing_machine'
 external: ''

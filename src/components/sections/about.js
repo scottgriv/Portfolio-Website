@@ -130,54 +130,24 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const currentBizSkills = [
-    'REST/SOAP APIs',
-    'Mobile Application Development',
-    'Full-Stack Development',
-    'Front-End Development',
-    'Integration Architecture',
-    'Technology Roadmaps',
-    'Technology Stacks | Software Solutions',
-    'Management | Customer Service',
-    'Budgeting Skills',
-    'Public Speaking | Presentation Skills',
-    'Algorithms',
-    'Data Structures',
-    'Data Modeling',
-    'Data Analytics',
-    'Data Warehousing & ETL',
-    'Business Intelligence',
-    'Business Reporting',
-    'Machine Learning',
-    'Cloud Computing',
-    'Computer Science',
-    'UI & UX Design',
-    'Version Control',
-    'SQL Databases',
-    'NoSQL Databases',
-    'Container Management',
-    'AI Systems',
-    'Web Servers',
-    'Prototyping',
-    'AGILE Methodologies',
-    'Cybersecurity',
-    'Networking',
-    'Finance | Accounting',
-    'Cross Functional Leadership',
-    'Technical Documentation',
-    'User Stories',
-    'End-User Training',
-    'Regular Expressions (RegEx)',
-    'DevOps',
-    'CI/CD Pipeline',
+  const currentSkills = [
+    'UML Diagrams',
+    'OOP | SOLID Principles',
+    'REST/SOAP | APIs',
+    'Micro-services',
+    'AWS | Azure | GCP',
+    'Agile | Waterfall',
+    'DevOps | CI/CD Pipelines',
     'FTP | SMB | MQ',
     'TCP/IP | HTTP Protocols',
     'SSL Certificates',
-  ];
-
-  const currentLanguages = [
-    'Swift (iOS)',
-    'Objective-C (iOS)',
+    'Git | GitHub | GitLabs',
+    'UI & UX Design',
+    'Docker',
+    'RegEx',
+    'Data Warehousing',
+    'Swift | SwiftUI (iOS)',
+    'Objective-C | UIKit (iOS)',
     'Python',
     'Node.js',
     'PHP',
@@ -197,18 +167,12 @@ const About = () => {
     'PostgreSQL',
     'Powershell',
     'Bash',
-    'Xcode',
-    'Visual Studio',
-    'VS Code',
-    'Eclipse',
-    '.NET | IIS',
-    'Apache | Tomcat',
   ];
 
-  const futureLanguages = [
+  const futureSkills = [
     'Kotlin (Android)',
     'Dart (Flutter)',
-    'MongoDB | CouchDB',
+    'MongoDB | CouchDB (NoSQL)',
     'React',
     'GraphQL',
     'TypeScript',
@@ -221,30 +185,6 @@ const About = () => {
     'Kubernetes',
     'Gatsby',
     'Netlify',
-  ];
-
-  const currentApps = [
-    'Cloud Infrastructure (AWS | GCP | Azure | SaaS)',
-    'Version Control (Git | GitHub)',
-    'Issue Tracking (ServiceNow | Jira)',
-    'Container Management (Docker)',
-    'Monitoring Solutions (Site24x7)',
-    'Design Software (Sketch | Figma | Adobe Photoshop)',
-    'Integration Systems (MQ | JMS | InforOS | Infor ION & API)',
-    'Asset Management Systems (Infor EAM)',
-    'ERP Systems (Infor ERP LX | M3 | IDM)',
-    'CRM Systems (Infor CRM | Microsoft Dynamics)',
-    'Document Management Systems (Metafile | Infor IDM)',
-    'Reporting Systems (Infor Birst | MS PowerBI | Qlik Sense | IBM Cognos)',
-    'Operating Systems (IBM i/iSeries/AS400 | Windows | Mac)',
-    'Warehouse Systems (Logistics)',
-    'Financial Systems (SAP | ERP LX)',
-    'EHS Systems (QMS | CompliantPro)',
-    'Shop Floor Control Systems (TouchPath)',
-    'Communications (Twilio)',
-    'Packaging Labels | Printers',
-    'Microsoft 365 (Teams | Outlook | OneNote | OneDrive)',
-    'Microsoft 365 (Excel | Word | PowerPoint | Visio)',
   ];
 
   return (
@@ -275,6 +215,23 @@ const About = () => {
             </p>
 
             <p>
+              In 2014, I started{' '}
+              <a href="https://www.nightowllabs.net/" target="_blank" rel="noreferrer">
+                my own LLC & side venture
+              </a>
+              , which is my &quot;sandbox&quot; I occasionally use in my spare time for software
+              research to create and publish projects in order to stay up to date on the latest and
+              greatest technological trends. I publish some of these projects on the iOS, and Google
+              Play App Stores, respectively. Additionally, I use this platform to give back to the
+              development community by creating and publishing educational content such as articles,
+              videos, and{' '}
+              <a href="https://github.com/scottgriv/Post.e" target="_blank" rel="noreferrer">
+                open-source code on GitHub
+              </a>
+              .
+            </p>
+
+            <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a
                 href="https://www.talenenergy.com/plant/susquehanna/"
@@ -290,34 +247,26 @@ const About = () => {
             </p>
 
             <p>
-              In my spare time, I enjoy learning new programming languages and frameworks. When I’m
-              not typing on a laptop, you can find me outdoors; enjoying nature, camping, hiking,
-              and most importantly: fishing.
+              In my spare time, I enjoy learning new programming languages, frameworks, and
+              architecture methodologies. When I’m not typing on a laptop, you can find me outdoors;
+              enjoying nature, camping, hiking, and most importantly: fishing.
             </p>
 
-            <p>Here are some of my current overall skills:</p>
-            <ul className="skills-list">
-              {currentBizSkills &&
-                currentBizSkills.map((currentBizSkills, i) => <li key={i}>{currentBizSkills}</li>)}
-            </ul>
             <p>
-              Here are some of the programming languages, frameworks, and IDEs I'm familiar with:
+              Here are some of the programming languages, methodologies, architectures, and
+              technologies I'm familiar with:
             </p>
             <ul className="skills-list">
-              {currentLanguages &&
-                currentLanguages.map((currentLanguages, i) => <li key={i}>{currentLanguages}</li>)}
+              {currentSkills &&
+                currentSkills.map((currentSkills, i) => <li key={i}>{currentSkills}</li>)}
             </ul>
             <p>
               Here are a few programming languages and technologies that I’ve been working with
               recently:
             </p>
             <ul className="skills-list">
-              {futureLanguages &&
-                futureLanguages.map((futureLanguages, i) => <li key={i}>{futureLanguages}</li>)}
-            </ul>
-            <p>Here's a list of enterprise applications and technologies that I'm familiar with:</p>
-            <ul className="skills-list">
-              {currentApps && currentApps.map((currentApps, i) => <li key={i}>{currentApps}</li>)}
+              {futureSkills &&
+                futureSkills.map((futureSkills, i) => <li key={i}>{futureSkills}</li>)}
             </ul>
           </div>
         </StyledText>

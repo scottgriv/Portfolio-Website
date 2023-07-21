@@ -1,5 +1,5 @@
 ---
-date: '2022-12-19'
+date: '2022-12-22'
 title: 'python-convert_html_table_to_csv'
 github: 'https://github.com/scottgriv/python-convert_html_table_to_csv'
 external: ''

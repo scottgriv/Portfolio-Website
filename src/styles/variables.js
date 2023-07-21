@@ -36,7 +36,7 @@ const variables = css`
 
     --tab-height: 42px;
 
-    --tab-width: 200x;
+    --tab-width: 145px;
 
     /*
 Was 120px with multiple jobs, I increased it to fit two jobs

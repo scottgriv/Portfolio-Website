@@ -1,5 +1,5 @@
 ---
-date: '2022-12-09'
+date: '2022-12-13'
 title: 'javascript-tic_tac_toe'
 github: 'https://github.com/scottgriv/javascript-tic_tac_toe'
 external: ''

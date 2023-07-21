@@ -1,5 +1,5 @@
 ---
-date: '2022-12-10'
+date: '2022-12-12'
 title: 'python-delete_file_automation'
 github: 'https://github.com/scottgriv/python-delete_file_automation'
 external: ''
