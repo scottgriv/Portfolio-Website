@@ -36,12 +36,13 @@ const variables = css`
 
     --tab-height: 42px;
 
-    --tab-width: 145px;
+    --tab-width: 120px;
 
     /*
-Was 120px with multiple jobs, I increased it to fit two jobs
+    Was 120px with multiple jobs, I increased it to fit two jobs to 200x
     --tab-width: 120px;
-*/
+    */
+
     --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
     --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 

@@ -221,10 +221,10 @@ const About = () => {
               </a>
               , which is my &quot;sandbox&quot; I occasionally use in my spare time for software
               research to create and publish projects in order to stay up to date on the latest and
-              greatest technological trends. I publish some of these projects on the iOS, and Google
-              Play App Stores, respectively. Additionally, I use this platform to give back to the
-              development community by creating and publishing educational content such as articles,
-              videos, and{' '}
+              greatest technological trends. I publish some of these projects on the iOS App Store,
+              and Google Play Store, respectively. Additionally, I use this platform to give back to
+              the development community by creating and publishing educational content such as
+              articles, videos, and{' '}
               <a href="https://github.com/scottgriv/Post.e" target="_blank" rel="noreferrer">
                 open-source code on GitHub
               </a>

@@ -7,7 +7,7 @@ module.exports = {
       'Scott Grivner is a Software Engineer & Architect who specializes in enterprise and software development, architecture, data analysis, and business enablement.',
     siteUrl: 'https://scottgrivner.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    twitterUsername: '@scottgrivner',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -11,20 +11,24 @@ module.exports = {
       url: 'https://stackoverflow.com/u/3092847',
     },
     {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/scottgrivner/',
+    },
+    {
       name: 'Codepen',
       url: 'https://codepen.io/scottgriv',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/scottgrivner/',
+      name: 'Medium',
+      url: 'https://medium.com/@scottgrivner',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/scottgrivner',
     },
     {
-      name: 'Medium',
-      url: 'https://medium.com/@scottgrivner',
+      name: 'YouTube',
+      url: 'https://www.youtube.com/@scottgrivner',
     },
     {
       name: 'BuyMeACoffee',
