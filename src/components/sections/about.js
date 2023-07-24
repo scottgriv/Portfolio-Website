@@ -225,7 +225,10 @@ const About = () => {
               and Google Play Store, respectively. Additionally, I use this platform to give back to
               the development community by creating and publishing educational content such as
               articles, videos, and{' '}
-              <a href="https://github.com/scottgriv/Post.e" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Night-Owl-Labs/Solid-Principles"
+                target="_blank"
+                rel="noreferrer">
                 open-source code on GitHub
               </a>
               .
