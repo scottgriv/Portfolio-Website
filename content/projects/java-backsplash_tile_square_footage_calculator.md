@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-A calculator that will assist in determining the number of backsplash tile cases/packs to purchase, based on the square footage using the width and length (in feet and/or inches) of a surface area.
+A console based calculator that will assist in determining the number of backsplash tile cases/packs to purchase, based on the square footage using the width and length (in feet and/or inches) of a surface area.
