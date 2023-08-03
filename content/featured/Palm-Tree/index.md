@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Palm Tree'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Palm-Tree'
