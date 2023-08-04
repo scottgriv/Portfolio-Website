@@ -7,7 +7,8 @@ android: ''
 ios: ''
 tech:
   - PHP
-  - HTML/CSS
+  - HTML
+  - CSS
   - Batchfile
 showInProjects: true
 ---

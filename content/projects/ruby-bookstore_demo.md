@@ -8,7 +8,8 @@ ios: ''
 tech:
   - Ruby on Rails
   - Node.js
-  - HTML/CSS
+  - HTML
+  - CSS
 showInProjects: true
 ---
 

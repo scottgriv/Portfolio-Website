@@ -7,7 +7,8 @@ android: ''
 ios: ''
 tech:
   - PHP
-  - HTML/CSS
+  - HTML
+  - CSS
 showInProjects: true
 ---
 

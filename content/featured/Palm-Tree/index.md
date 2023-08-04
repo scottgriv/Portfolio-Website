@@ -7,7 +7,8 @@ tech:
   - VS Code
   - JavaScript
   - Boostrap
-  - HTML/CSS
+  - HTML
+  - CSS
   - PHP
   - MySQL
 ---
