@@ -27,6 +27,11 @@ module.exports = {
         theme_color: config.colors.navy,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
       },
     },
     `gatsby-plugin-offline`,
