@@ -4,7 +4,6 @@ title: 'Post.e'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Post.e'
 tech:
-  - Xcode
   - Swift
   - Objective-C
   - UIKit

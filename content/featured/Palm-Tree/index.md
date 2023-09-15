@@ -4,7 +4,6 @@ title: 'Palm Tree'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Palm-Tree'
 tech:
-  - VS Code
   - JavaScript
   - Boostrap
   - HTML

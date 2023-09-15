@@ -7,7 +7,6 @@ external: 'https://www.reciperesizer.com/'
 android: ''
 ios: 'https://www.reciperesizer.com/'
 tech:
-  - Xcode
   - Swift
   - SwiftUI
   - Core Data
