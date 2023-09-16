@@ -14,8 +14,4 @@ tech:
   - API
 ---
 
-A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS). The application allows users to set a river and a date range to view the river's gage height and discharge. The application also allows users to plot dates of interest on the graph and view the data for those dates.
-
-```
-
-```
+A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS). The application allows users to view a river's gage height and discharge based on a specific date range. The application also allows users to view plotted dates of interest on the graph to view river levels for said dates.
