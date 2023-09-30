@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '3'
 title: 'River Charts'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/River-Charts'

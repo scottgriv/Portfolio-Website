@@ -12,7 +12,6 @@ tech:
   - Guidelines
   - Documentation
   - Standards
-  - Templates
 ---
 
 A repository guideline system developed to categorized repositories and projects as well as defining a README standardization and overall repository structure.
