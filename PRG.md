@@ -1,6 +1,6 @@
 # Personal Repisitory Guidelines (PRG) Connection File
 
-This repository is catagorized under the **PRG** system. <br>
+This repository is catagorized under the **PRG** system.
 
 ## Project Information
 
@@ -11,7 +11,7 @@ Order: 6 <br>
 
 ## How this works
 
-- This file connects this repository to the **PRG** guideline and categorization system.
+This file connects this repository to the **PRG** guideline and categorization system.
 
 > [!NOTE]
 > Include this file in your projects root folder for this repo to properly connect to your PRG system.
