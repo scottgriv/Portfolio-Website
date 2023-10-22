@@ -327,7 +327,9 @@ const Featured = () => {
               github
               ios
               external
-              covergif
+              covergif {
+                publicURL
+              }
             }
             html
           }
@@ -410,7 +412,7 @@ const Featured = () => {
                   <a href={ios ? ios : external ? external : github ? github : '#'}>
                     {covergif ? (
                       <div className="covergif-wrapper">
-                        <img src={covergif} alt={title} className="img" />
+                        <img src={covergif.publicURL} alt={title} className="img" />
                       </div>
                     ) : (
                       <GatsbyImage image={image} alt={title} className="img" />
