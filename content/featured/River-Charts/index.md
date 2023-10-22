@@ -1,9 +1,9 @@
 ---
-date: '3'
+date: '4'
 title: 'River Charts'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/River-Charts'
-external: 'http://www.rivercharts.app'
+external: 'https://www.rivercharts.app'
 android: ''
 ios: ''
 tech:
