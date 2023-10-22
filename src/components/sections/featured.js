@@ -288,7 +288,20 @@ const StyledProject = styled.li`
         */
       }
     }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 49.8%; /* for 16:9 aspect ratio = 56.25% */
+      height: 0;
+      overflow: hidden;
+    }
 
+    .video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     .img {
       border-radius: var(--border-radius);
       /*
@@ -327,7 +340,7 @@ const Featured = () => {
               github
               ios
               external
-              covergif {
+              video {
                 publicURL
               }
             }
@@ -362,7 +375,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, ios, covergif } = frontmatter;
+            const { external, title, tech, github, cover, ios, video } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -410,9 +423,12 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={ios ? ios : external ? external : github ? github : '#'}>
-                    {covergif ? (
-                      <div className="covergif-wrapper">
-                        <img src={covergif.publicURL} alt={title} className="img" />
+                    {video ? (
+                      <div className="video-wrapper">
+                        <video className="video img" autoPlay muted loop>
+                          <source src={video.publicURL} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
                       </div>
                     ) : (
                       <GatsbyImage image={image} alt={title} className="img" />
