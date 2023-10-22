@@ -104,4 +104,18 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       },
     },
   });
+
+  // Add this section for schema customization
+  exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions;
+    const typeDefs = `
+      type MarkdownRemark implements Node {
+        frontmatter: Frontmatter
+      }
+      type Frontmatter {
+        covergif: File @fileByRelativePath
+      }
+    `;
+    createTypes(typeDefs);
+  };
 };
