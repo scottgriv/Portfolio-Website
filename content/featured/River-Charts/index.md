@@ -6,6 +6,7 @@ github: 'https://github.com/scottgriv/River-Charts'
 external: 'https://www.rivercharts.app'
 android: ''
 ios: ''
+covergif: './demo.gif'
 tech:
   - Python
   - Django
