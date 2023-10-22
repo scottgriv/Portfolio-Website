@@ -6,7 +6,6 @@ github: ''
 external: 'https://www.reciperesizer.com/'
 android: ''
 ios: 'https://www.reciperesizer.com/'
-covergif: ''
 tech:
   - Swift
   - SwiftUI

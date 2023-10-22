@@ -289,21 +289,6 @@ const StyledProject = styled.li`
       }
     }
 
-    .covergif-wrapper-old {
-      position: relative;
-      padding-bottom: 50%; /* for 16:9 aspect ratio */
-      height: 0;
-      overflow: hidden;
-    }
-
-    .covergif-old {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
     .img {
       border-radius: var(--border-radius);
       /*
@@ -342,9 +327,6 @@ const Featured = () => {
               github
               ios
               external
-              covergif {
-                publicURL
-              }
             }
             html
           }
@@ -377,11 +359,8 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, ios, covergif } = frontmatter;
+            const { external, title, tech, github, cover, ios } = frontmatter;
             const image = getImage(cover);
-
-            // eslint-disable-next-line no-console
-            //console.log('GIF Path:', covergif.relativePath);  // Here is where you log the gif path
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -428,13 +407,7 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={ios ? ios : external ? external : github ? github : '#'}>
-                    {covergif ? (
-                      <div className="covergif-wrapper">
-                        <img src={covergif.publicURL} alt={title} className="img" />
-                      </div>
-                    ) : (
-                      <GatsbyImage image={image} alt={title} className="img" />
-                    )}
+                    <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
               </StyledProject>

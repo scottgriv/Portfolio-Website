@@ -6,7 +6,6 @@ github: 'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines'
 external: 'https://www.prgoptimized.com'
 android: ''
 ios: ''
-covergif: ''
 tech:
   - Markdown
   - Python
