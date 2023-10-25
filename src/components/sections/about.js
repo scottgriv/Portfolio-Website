@@ -183,8 +183,8 @@ const About = () => {
     'Go',
     'Express.js',
     'Kubernetes',
-    'Gatsby',
-    'Netlify',
+    'Vue.js',
+    'Svelte',
   ];
 
   return (
@@ -195,12 +195,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Scott and I'm a Software Engineer & Architect with over a decade of
+              Hello! My name is Scott and I'm a Software Engineer, Architect, Designer, and Educator with over a decade of
               professional experience.
             </p>
 
             <p>
-              My interest in programming began in 2002, at the age of 13, when I decided to create
+              My interest in programming began at the age of 13, when I decided to create
               my first website and Windows program.
             </p>
 
@@ -209,20 +209,16 @@ const About = () => {
               <a href="https://www.bloomu.edu/" target="_blank" rel="noreferrer">
                 Bloomsburg University
               </a>
-              . My degree was more business oriented, but my passion for technology never faded. Not
-              long after graduation, I decided to get back into development by teaching myself how
-              to program by creating my first mobile application.
+              .
             </p>
 
             <p>
-              In 2014, I started{' '}
+              In 2014, I founded{' '}
               <a href="https://www.nightowllabs.net/" target="_blank" rel="noreferrer">
-                my own LLC & side venture
+                Night Owl Labs, LLC.
               </a>
-              , which is my &quot;sandbox&quot; I occasionally use in my spare time for software
-              research to create and publish projects in order to stay up to date on the latest and
-              greatest technological trends. I publish some of these projects on the iOS App Store,
-              and Google Play Store, respectively. Additionally, I use this platform to give back to
+              , a software research, consulting, development, and design company. I use this company to publish some of my projects on the iOS App Store,
+              and Google Play Store, respectively. I also use it for software development consulting purposes; helping customers with custom software solutions. Additionally, I use this platform to give back to
               the development community by creating and publishing educational content such as
               articles, videos, and{' '}
               <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">

@@ -65,9 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Software Engineer & Architect based in North Eastern Pennsylvania, USA. I specialize
-        in enterprise and software development, architecture, data analysis, and business
-        enablement. Currently, I work as a Solutions Architect at{' '}
+        I’m a Software Engineer, Architect, Designer, and Educator based in North Eastern Pennsylvania, USA. Currently, I work as a Solutions Architect at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
         </a>{' '}

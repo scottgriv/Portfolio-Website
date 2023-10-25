@@ -24,6 +24,7 @@ Dark mode toggle without the flash of default theme. Important bits:
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
     ...
     <script>
       // If there's a theme stored in localStorage, use it on the <html>
