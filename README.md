@@ -19,7 +19,7 @@
 
 ## 🚨 Forking this repo (please read!)
 
-This repo was originally forked from
+This repo was originally forked from:
 [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4).
 
 Website design credit goes to Brittany, I modified the website to fit my needs (explained below):
