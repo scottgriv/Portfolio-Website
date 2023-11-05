@@ -195,13 +195,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Scott and I'm a Software Engineer, Architect, Designer, and Educator with over a decade of
-              professional experience.
+              Hello! My name is Scott and I'm a Software Engineer, Architect, Designer, and Educator
+              with over a decade of professional experience.
             </p>
 
             <p>
-              My interest in programming began at the age of 13, when I decided to create
-              my first website and Windows program.
+              My interest in programming began at the age of 13, when I decided to create my first
+              website and Windows program.
             </p>
 
             <p>
@@ -217,10 +217,12 @@ const About = () => {
               <a href="https://www.nightowllabs.net/" target="_blank" rel="noreferrer">
                 Night Owl Labs, LLC.
               </a>
-              , a software research, consulting, development, and design company. I use this company to publish some of my projects on the iOS App Store,
-              and Google Play Store, respectively. I also use it for software development consulting purposes; helping customers with custom software solutions. Additionally, I use this platform to give back to
-              the development community by creating and publishing educational content such as
-              articles, videos, and{' '}
+              , a software development, and design company, consulting, and research company. I use
+              this company to publish some of my projects on the iOS App Store, and Google Play
+              Store, respectively. I also use it for software development consulting purposes;
+              helping customers with custom software solutions. Additionally, I use this platform to
+              give back to the development community by creating and publishing educational content
+              such as articles, videos, and{' '}
               <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">
                 open-source code on GitHub
               </a>
