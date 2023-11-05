@@ -41,10 +41,6 @@ const StyledSocialLinks = styled.div`
 `;
 
 const StyledCredit = styled.div`
-  .hitcounter {
-    display: none;
-  }
-
   color: var(--light-slate);
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
@@ -96,13 +92,6 @@ const Footer = () => (
       </a>
       <br />
       <br />
-      <img
-        className="hitcounter"
-        src="https://hitwebcounter.com/counter/counter.php?page=8475234&style=0030&nbdigits=5&type=page&initCount=0"
-        title="Free Counter"
-        Alt="web counter"
-        border="0"
-      />
     </StyledCredit>
   </StyledFooter>
 );
