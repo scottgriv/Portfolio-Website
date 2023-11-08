@@ -25,7 +25,8 @@ module.exports = {
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
-        display: 'minimal-ui',
+        // display: 'minimal-ui',
+        display: `standalone`,
         icon: 'src/images/logo.png',
         icon_options: {
           // For all the options available,
