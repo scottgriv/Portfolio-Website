@@ -13,7 +13,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 ## Project Information
 
 **Repository Tier:** Silver <br>
-**Technology:** React, GraphQL, React, Netlify <br>
+**Technology:** Gatsby, React, GraphQL, Netlify <br>
 **Category:** Single Page Application (SPA), Portfolio Website <br>
 **Order:** 1 <br>
 

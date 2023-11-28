@@ -7,9 +7,9 @@
 </div>
 <br>
 <p align="center">
-    <a href="https://svelte.dev/"><img src="https://img.shields.io/badge/Svelte-3.55.0-FF3E00?style=for-the-badge&logo=svelte" alt="Svelte Badge" /></a>
-    <a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node.js-16.13.2-036E02?style=for-the-badge&logo=node.js" alt="Node.js Badge" /></a>
-    <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-10.4.0-FCCA3F?style=for-the-badge&logo=firebase" alt="Firebase Badge" /></a>
+    <a href="https://www.gatsbyjs.com/"><img src="https://img.shields.io/badge/Gatsby-3.4.1-542C85?style=for-the-badge&logo=gatsby" alt="Gatsby Badge" /></a>
+    <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18.2.0-0D6D8C?style=for-the-badge&logo=react" alt="React Badge" /></a>
+    <a href="https://www.netlify.com/"><img src="https://img.shields.io/badge/Netlify-17.7.0-33E6E2?style=for-the-badge&logo=netlify" alt="Netlify Badge" /></a>
     <br>
     <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-9031AC?style=for-the-badge&logo=github&color=9031AC" alt="GitHub Badge" /></a>
     <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-DC4233?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
@@ -22,12 +22,12 @@
 
 <h1 align="center">💼 Portfolio Website 💼</h1>
 <p align="center">
-  The first iteration of <a href="https://scottgrivner.dev" target="_blank">scottgrivner.dev</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
     <a href="https://app.netlify.com/sites/scottgrivner/deploys" target="_blank">
     <img src="https://api.netlify.com/api/v1/badges/2789b2bf-185c-477a-96b5-65901acb629c/deploy-status" alt="Netlify Status" />
     </a>
+</p>
+<p align="center">
+  The first iteration of <a href="https://scottgrivner.dev" target="_blank">scottgrivner.dev</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 ![demo](./src/images/demo.png)
