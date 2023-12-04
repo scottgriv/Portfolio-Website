@@ -41,6 +41,7 @@
   - [Installation & Set Up](#installation--set-up)
   - [Building and Running for Production](#building-and-running-for-production)
   - [Color Reference](#color-reference)
+- [Resources](#resources)
 - [License](#license)
 - [Credits](#credits)
 
@@ -111,6 +112,12 @@
 | Blue          | ![#57cbff](https://via.placeholder.com/10/57cbff?text=+) `#57cbff` |
 | Black         | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
 | White         | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
+
+## Resources
+
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Netlify](https://www.netlify.com/)
+- [React](https://reactjs.org/)
 
 ## License
 
