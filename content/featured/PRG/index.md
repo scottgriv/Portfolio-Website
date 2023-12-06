@@ -9,11 +9,11 @@ ios: ''
 tech:
   - Markdown
   - Python
-  - Data Tables
+  - DataTables
   - Jekyll
   - GitHub API
   - GitHub Actions
   - GitHub Pages
 ---
 
-A repository categorization and guideline system developed to standardize repositories, projects, README's, and overall repository structure. Utilizes GitHub Actions to create a custom tier table to showcase your categorized repositories for your GitHub portfolio.
+PRG is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for READMEs and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.

@@ -1,8 +1,8 @@
 ---
 date: '6'
-title: 'NOL Business Website'
+title: 'Business Website'
 cover: './demo.png'
-github: 'https://github.com/scottgriv/business-website'
+github: 'https://github.com/scottgriv/Business-Website'
 external: 'https://nightowllabs.net'
 android: ''
 ios: ''
@@ -11,8 +11,6 @@ tech:
   - Netlify
   - React
   - JavaScript
-  - HTML
-  - CSS
 ---
 
-A great starter static business website with multiple menu options and features. Built with Gatsby and hosted with Netlify.
+A dynamic and versatile static business website, expertly crafted using Gatsby for optimal performance and hosted on Netlify for reliability. This website comes with a multitude of menu options and features, catering to diverse business needs. Additionally, it includes a dedicated section for a product or app landing page, perfect for showcasing new releases, features, and driving user engagement.
