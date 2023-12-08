@@ -1,5 +1,5 @@
 ---
-date: '2023-01-01'
+date: '2023-01-15'
 title: 'javascript-api_data_fisher'
 github: 'https://github.com/scottgriv/javascript-api_data_fisher'
 external: ''

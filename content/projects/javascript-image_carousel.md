@@ -1,5 +1,5 @@
 ---
-date: '2023-01-07'
+date: '2023-01-09'
 title: 'javascript-image_carousel'
 github: 'https://github.com/scottgriv/javascript-image_carousel'
 external: ''

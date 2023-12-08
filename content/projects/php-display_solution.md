@@ -1,5 +1,5 @@
 ---
-date: '2023-01-10'
+date: '2023-01-06'
 title: 'php-display_solution'
 github: 'https://github.com/scottgriv/php-display_solution'
 external: ''

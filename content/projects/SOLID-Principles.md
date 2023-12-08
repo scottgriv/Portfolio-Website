@@ -1,5 +1,5 @@
 ---
-date: '2023-01-14'
+date: '2023-01-02'
 title: 'SOLID-Principles'
 github: 'https://github.com/Night-Owl-Labs/SOLID-Principles'
 external: ''

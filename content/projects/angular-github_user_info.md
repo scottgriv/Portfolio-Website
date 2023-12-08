@@ -1,5 +1,5 @@
 ---
-date: '2023-01-03'
+date: '2023-01-13'
 title: 'angular-github_user_info'
 github: 'https://github.com/scottgriv/angular-github_user_info'
 external: 'https://scottgriv.github.io/angular-github_user_info/'

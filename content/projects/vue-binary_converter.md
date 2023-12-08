@@ -1,5 +1,5 @@
 ---
-date: '2023-01-04'
+date: '2023-01-12'
 title: 'vue-binary_converter'
 github: 'https://github.com/scottgriv/vue-binary_converter'
 external: 'https://scottgriv.github.io/vue-binary_converter/'

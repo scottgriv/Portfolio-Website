@@ -1,5 +1,5 @@
 ---
-date: '2023-01-15'
+date: '2023-01-01'
 title: 'OOP-Principles'
 github: 'https://github.com/Night-Owl-Labs/OOP-Principles'
 external: ''
