@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="https://scottgrivner.dev" target="_blank">
-        <img src="./docs/images/icon-rounded.png" width="200" height="200"/>
+        <img src="./docs/images/banner_small-rounded.png" width="50%" height="auto"/>
     </a>
 </div>
 <br>
