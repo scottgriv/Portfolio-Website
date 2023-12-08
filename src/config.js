@@ -34,6 +34,10 @@ module.exports = {
       name: 'BuyMeACoffee',
       url: 'https://www.buymeacoffee.com/scottgriv',
     },
+    {
+      name: 'PRG',
+      url: 'https://prgoptimized.com',
+    },
     /*
     {
       name: 'Twitter',

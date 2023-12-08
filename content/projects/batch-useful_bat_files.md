@@ -1,12 +1,13 @@
 ---
 date: '2022-12-02'
-title: 'batch-useful_bat_files'
-github: 'https://github.com/scottgriv/batch-useful_bat_files'
+title: 'javascript-api_data_fisher'
+github: 'https://github.com/scottgriv/javascript-api_data_fisher'
 external: ''
 android: ''
 ios: ''
 tech:
   - Batchfile
+  - JavaScript, HTML, CSS, CSV
 showInProjects: true
 ---
 

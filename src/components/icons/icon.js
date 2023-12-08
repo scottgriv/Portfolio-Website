@@ -19,6 +19,7 @@ import {
   IconStar,
   IconTwitter,
   IconYouTube,
+  IconPRG,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -59,6 +60,8 @@ const Icon = ({ name }) => {
       return <IconTwitter />;
     case 'YouTube':
       return <IconYouTube />;
+    case 'PRG':
+      return <IconPRG />;
     default:
       return <IconExternal />;
   }
