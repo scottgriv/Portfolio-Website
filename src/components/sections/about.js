@@ -131,18 +131,18 @@ const About = () => {
   }, []);
 
   const currentSkills = [
-    'UML Diagrams',
-    'OOP | SOLID Principles',
+    'UML Diagrams | PlantUML',
+    'OOP | SOLID | DRY | Clean Code',
     'REST/SOAP | APIs',
-    'Micro-services',
+    'Microservices',
     'AWS | Azure | GCP',
     'Agile | Waterfall',
     'DevOps | CI/CD Pipelines',
     'FTP | SMB | MQ',
     'TCP/IP | HTTP Protocols',
-    'SSL Certificates',
-    'Git | GitHub | GitLabs',
-    'UI & UX Design',
+    'Gatsby | React | GraphQL',
+    'Git | GitHub | GitHub Actions',
+    'UI & UX Design | Sketch | Figma',
     'Docker',
     'RegEx',
     'Data Warehousing',
@@ -152,30 +152,21 @@ const About = () => {
     'Node.js',
     'PHP',
     'JSON | XML | XSLT',
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'AJAX',
-    'jQuery',
-    'Bootstrap',
-    'C#',
+    'JavaScript | TypeScript',
+    'C# | .NET | .NET Core',
     'SQL Server',
     'MySQL',
-    'MariaDB',
-    'SQLite',
-    'DB2',
     'PostgreSQL',
-    'Powershell',
-    'Bash',
+    'PWA',
+    'IBMi | AS/400 | DB2',
+    'Kotlin (Android)',
+    'Dart (Flutter)',
   ];
 
   const futureSkills = [
-    'Kotlin (Android)',
-    'Dart (Flutter)',
+    'React Native',
     'MongoDB | CouchDB (NoSQL)',
-    'React',
-    'GraphQL',
-    'TypeScript',
+    'Rust',
     'Firebase',
     'Rust',
     'Ruby',
@@ -185,6 +176,9 @@ const About = () => {
     'Kubernetes',
     'Vue.js',
     'Svelte',
+    'Sass | Less',
+    'Tailwind CSS',
+    'Next.js',
   ];
 
   return (
@@ -243,8 +237,17 @@ const About = () => {
 
             <p>
               In my spare time, I enjoy learning new programming languages, frameworks, and
-              architecture methodologies. When I’m not typing on a laptop, you can find me outdoors;
-              enjoying nature, camping, hiking, and most importantly:{' '}
+              architecture methodologies. I'm also an avid open-source contributor and have
+              developed a{' '}
+              <a href="https://prgoptimized.com" target="_blank" rel="noreferrer">
+                Portfolio and Guideline System
+              </a>{' '}
+              to help others get started in the field.
+            </p>
+
+            <p>
+              When I’m not typing on a laptop, you can find me outdoors; enjoying nature, camping,
+              hiking, and most importantly:{' '}
               <a href="https://fishbrain.com/anglers/scottgriv" target="_blank" rel="noreferrer">
                 Fishing
               </a>
