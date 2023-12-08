@@ -7,6 +7,10 @@ module.exports = {
       url: 'https://github.com/scottgriv',
     },
     {
+      name: 'PRG',
+      url: 'https://prgoptimized.com',
+    },
+    {
       name: 'StackOverflow',
       url: 'https://stackoverflow.com/u/3092847',
     },
@@ -33,10 +37,6 @@ module.exports = {
     {
       name: 'BuyMeACoffee',
       url: 'https://www.buymeacoffee.com/scottgriv',
-    },
-    {
-      name: 'PRG',
-      url: 'https://prgoptimized.com',
     },
     /*
     {
