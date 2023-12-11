@@ -208,7 +208,7 @@ const About = () => {
 
             <p>
               In 2014, I launched{' '}
-              <a href="https://www.nightowllabs.net/" target="_blank" rel="noreferrer">
+              <a href="https://www.nightowllabs.io/" target="_blank" rel="noreferrer">
                 Night Owl Labs, LLC.
               </a>
               , a company dedicated to software development, design, consulting, and education. I
@@ -239,7 +239,7 @@ const About = () => {
               In my spare time, I enjoy learning new programming languages, frameworks, and
               architecture methodologies. I'm also an avid open-source contributor and have
               developed a{' '}
-              <a href="https://prgoptimized.com" target="_blank" rel="noreferrer">
+              <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
                 Portfolio and Guideline System
               </a>{' '}
               to help others get started in the field.

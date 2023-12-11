@@ -6,7 +6,7 @@ subtitle: 'Side Venture'
 location: 'Wilkes-Barre, PA (Remote)'
 range: 'July 2014 - Present'
 type: 'Self-employed'
-url: 'https://nightowllabs.net/'
+url: 'https://nightowllabs.io/'
 ---
 
 - Founded and operated a successful software development LLC startup with 5+ employees.

@@ -3,7 +3,7 @@ date: '6'
 title: 'Business Website'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Business-Website'
-external: 'https://nightowllabs.net'
+external: 'https://nightowllabs.io'
 android: ''
 ios: ''
 tech:
