@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'PRG',
-      url: 'https://prgoptimized.com',
+      url: 'https://prgportfolio.com',
     },
     {
       name: 'StackOverflow',
