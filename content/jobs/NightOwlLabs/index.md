@@ -12,7 +12,7 @@ url: 'https://nightowllabs.io/'
 - Founded and operated a successful software development LLC startup with 5+ employees.
 - Published iOS mobile applications using Swift & Objective-C (SwiftUI & UIKit) and Dart (Flutter).
 - Successfully engaged in consulting work, establishing beneficial business-to-business collaborations and directly servicing customers, delivering tailored software solutions that enhanced operational efficiency and user experience.
-- Developed Single Page Applications (SPA), MPA, PWA’s, API’s, Open Source Software (MIT Open Source License).
+- Developed SPAs, MPAs, PWAs, APIs, and other open source software (GitHub Developer Program Member).
 - Designed wireframes, prototypes, and UI/UX designs using Figma, Justinmind, Adobe Photoshop, and Sketch.
 - Utilized UML diagrams and SOLID/OOP principles & patterns to design system architecture from the ground up.
 - Oversaw the entire software development life cycle (SDLC), from full-stack development to production-ready code.
