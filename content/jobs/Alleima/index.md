@@ -13,7 +13,7 @@ url: 'https://alleima.com/'
 - Developed and improved .NET C# web applications and web services.
 - Successfully refactored our critical in-house steel tube scanning application. By implementing C# unit testing with NUnit, I significantly enhanced the system's accuracy, boosting defect detection by over 65%..
 - Developed data warehouses and ETL/ELT processes for report visualizations using multiple data sources.
-- Implemented and extended development for  industry-leading enterprise applications.
+- Implemented and extended development for industry-leading enterprise applications.
 - Assisted in the development of a customer-facing eCommerce website + IIS hosting.
 - Successfully migrated on-premise software to Azure cloud environments; reducing server hosting costs by over 50%.
 - Led large-scale complex projects, including requirements gathering and budget management.

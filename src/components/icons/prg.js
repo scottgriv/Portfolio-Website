@@ -4,8 +4,8 @@ const IconPRG = () => (
   <svg
     version="1.0"
     xmlns="http://www.w3.org/2000/svg"
-    width="26.000000pt"
-    height="34.000000pt"
+    width="16.000000pt"
+    height="24.000000pt"
     viewBox="0 0 26.000000 34.000000"
     preserveAspectRatio="xMidYMid meet">
     <g
