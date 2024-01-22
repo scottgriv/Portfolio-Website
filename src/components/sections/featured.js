@@ -370,7 +370,9 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={ios ? ios : external ? external : github ? github : '#'}>{title}</a>
+                      <a href={prg ? prg : ios ? ios : external ? external : github ? github : '#'}>
+                        {title}
+                      </a>
                     </h3>
 
                     <div
@@ -387,19 +389,9 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
-                      {github && (
-                        <a href={github} aria-label="GitHub Link">
-                          <Icon name="GitHub" />
-                        </a>
-                      )}
                       {ios && (
                         <a href={ios} aria-label="App Store Link" className="ios">
                           <Icon name="AppStore" />
-                        </a>
-                      )}
-                      {external && (
-                        <a href={external} aria-label="External Link" className="external">
-                          <Icon name="External" />
                         </a>
                       )}
                       {prg && (
@@ -407,12 +399,22 @@ const Featured = () => {
                           <Icon name="PRG" />
                         </a>
                       )}
+                      {external && (
+                        <a href={external} aria-label="External Link" className="external">
+                          <Icon name="External" />
+                        </a>
+                      )}
+                      {github && (
+                        <a href={github} aria-label="GitHub Link">
+                          <Icon name="GitHub" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
 
                 <div className="project-image">
-                  <a href={ios ? ios : external ? external : github ? github : '#'}>
+                  <a href={prg ? prg : ios ? ios : external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
