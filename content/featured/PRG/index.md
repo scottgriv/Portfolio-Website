@@ -2,8 +2,9 @@
 date: '2'
 title: 'Personal Repository Guidelines (PRG)'
 cover: './demo.png'
-github: 'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines'
 external: 'https://www.prgportfolio.com'
+external: 'https://www.prgoptimized.com'
+github: 'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines'
 android: ''
 ios: ''
 tech:
