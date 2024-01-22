@@ -2,7 +2,7 @@
 date: '2'
 title: 'Personal Repository Guidelines (PRG)'
 cover: './demo.png'
-external: 'https://www.prgportfolio.com'
+prg: 'https://www.prgportfolio.com'
 external: 'https://www.prgoptimized.com'
 github: 'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines'
 android: ''
