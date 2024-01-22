@@ -10,8 +10,8 @@ const IconPRG = () => (
     preserveAspectRatio="xMidYMid meet">
     <g
       transform="translate(0.000000,34.000000) scale(0.100000,-0.100000)"
-      fill="none"
-      stroke="currentColor">
+      fill="currentColor"
+      stroke="none">
       <path
         d="M12 328 c-8 -8 -12 -51 -12 -135 0 -109 2 -125 19 -140 42 -38 48
 -42 59 -31 7 7 17 6 31 -1 13 -7 21 -8 21 -2 0 6 28 11 63 13 l62 3 0 150 0
