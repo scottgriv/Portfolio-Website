@@ -14,4 +14,4 @@ tech:
   - GitHub Pages
 ---
 
-Scale design dimensions (width and height) up or down for @1x, @2, and @3x resolutions.
+Scale design dimensions (width and height) up or down for @1x, @2, and @3x resolutions. In the digital design realm, crafting visually compelling and crisp graphics is pivotal. The Resolution Scale Calculator emerges as a handy little tool for designers and developers eager to recreate or adapt designs inspired by existing website elements.

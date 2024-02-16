@@ -3,12 +3,12 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/scottgriv',
-    },
-    {
       name: 'PRG',
       url: 'https://prgportfolio.com',
+    },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/scottgriv',
     },
     {
       name: 'StackOverflow',
