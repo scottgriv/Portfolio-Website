@@ -1,5 +1,5 @@
 ---
-date: '2024-01-01'
+date: '2024-01-11'
 title: 'PWA Demo App'
 cover: './demo.png'
 prg: ''

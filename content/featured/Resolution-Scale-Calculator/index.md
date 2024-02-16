@@ -1,5 +1,5 @@
 ---
-date: '2024-01-04'
+date: '2024-01-08'
 title: 'Resolution Scale Calculator'
 cover: './demo.png'
 prg: ''
