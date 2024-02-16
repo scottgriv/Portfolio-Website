@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2024-01-10'
 title: 'Personal Repository Guidelines (PRG)'
 cover: './demo.png'
 prg: 'https://www.prgportfolio.com'

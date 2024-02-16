@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2024-01-11'
 title: 'Recipe Resizer'
 cover: './demo.png'
 github: ''

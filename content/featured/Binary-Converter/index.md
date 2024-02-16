@@ -1,5 +1,5 @@
 ---
-date: '10'
+date: '2024-01-02'
 title: 'Binary Converter'
 cover: './demo.png'
 prg: ''

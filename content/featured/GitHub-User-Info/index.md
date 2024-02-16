@@ -1,5 +1,5 @@
 ---
-date: '9'
+date: '2024-01-03'
 title: 'GitHub User Info'
 cover: './demo.png'
 prg: ''

@@ -1,5 +1,5 @@
 ---
-date: '6'
+date: '2024-01-06'
 title: 'Business Website'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Business-Website'
@@ -7,7 +7,7 @@ external: 'https://nightowllabs.io'
 android: ''
 ios: ''
 tech:
-  - Gatsby
+  - Gatsby.js
   - Netlify
   - React
   - JavaScript
