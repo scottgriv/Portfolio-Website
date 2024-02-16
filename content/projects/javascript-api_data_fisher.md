@@ -1,10 +1,11 @@
 ---
-date: '2023-01-15'
+date: '2024-01-08'
 title: 'javascript-api_data_fisher'
 github: 'https://github.com/scottgriv/javascript-api_data_fisher'
 external: ''
 android: ''
 ios: ''
+codepen: ''
 tech:
   - JavaScript
   - HTML

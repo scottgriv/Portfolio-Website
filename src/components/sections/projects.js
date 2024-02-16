@@ -183,6 +183,7 @@ const Projects = () => {
               tech
               github
               external
+              codepen
             }
             html
           }
@@ -214,7 +215,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, codepen, title, tech } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -237,6 +238,16 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer">
                   <Icon name="External" />
+                </a>
+              )}
+              {codepen && (
+                <a
+                  href={codepen}
+                  aria-label="CodePen Link"
+                  className="external"
+                  target="_blank"
+                  rel="noreferrer">
+                  <Icon name="Codepen" />
                 </a>
               )}
             </div>

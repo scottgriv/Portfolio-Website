@@ -1,13 +1,20 @@
 ---
-date: '2023-01-09'
+date: '2024-01-03'
 title: 'javascript-image_carousel'
 github: 'https://github.com/scottgriv/javascript-image_carousel'
 external: ''
 android: ''
 ios: ''
+codepen: ''
 tech:
-  - Java
+  - JavaScript
+  - jQuery
+  - PHP
+  - HTML
+  - CSS
+  - XAMPP
+  - Apache
 showInProjects: true
 ---
 
-A console based calculator that will assist in determining the number of backsplash tile cases/packs to purchase, based on the square footage using the width and length (in feet and/or inches) of a surface area.
+Image Upload and Display Tool: This user-friendly application enables uploading and sorting of multiple images. Once arranged, it seamlessly cycles through these images from a designated directory, showcasing them in a sequence for display or informational use.
