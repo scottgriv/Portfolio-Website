@@ -1,6 +1,6 @@
 ---
 date: '2024-01-06'
-title: 'java-backsplash_tile_square_footage_calculator'
+title: 'java-backsplash_tile...'
 github: 'https://github.com/scottgriv/java-backsplash_tile_square_footage_calculator'
 external: ''
 android: ''
