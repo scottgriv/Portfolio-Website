@@ -1,11 +1,12 @@
 ---
-date: '2024-01-03'
+date: '2024-01-04'
 title: 'javascript-image_carousel'
 github: 'https://github.com/scottgriv/javascript-image_carousel'
 external: ''
 android: ''
 ios: ''
 codepen: ''
+prg: ''
 tech:
   - JavaScript
   - jQuery

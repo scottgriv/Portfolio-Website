@@ -1,11 +1,12 @@
 ---
-date: '2024-01-04'
+date: '2024-01-05'
 title: 'javascript-magic_date_ball'
 github: 'https://github.com/scottgriv/javascript-magic_date_ball'
 external: ''
 android: ''
 ios: ''
 codepen: 'https://codepen.io/scottgriv/pen/LYadGKX'
+prg: ''
 tech:
   - JavaScript
   - HTML
