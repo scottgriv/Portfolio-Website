@@ -4,6 +4,7 @@ import {
   IconAppStore,
   IconBookmark,
   IconCodepen,
+  IconGoodreads,
   IconStackOverflow,
   IconMedium,
   IconBuyMeACoffee,
@@ -30,6 +31,8 @@ const Icon = ({ name }) => {
       return <IconBookmark />;
     case 'Codepen':
       return <IconCodepen />;
+    case 'Goodreads':
+      return <IconGoodreads />;
     case 'StackOverflow':
       return <IconStackOverflow />;
     case 'Medium':
