@@ -249,9 +249,8 @@ const About = () => {
               When I’m not typing on a laptop, you can find me outdoors;{' '}
               <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
                 reading books
-              </a>{' '}
-              (programming and non-programming), enjoying nature, camping, hiking, and most
-              importantly:{' '}
+              </a>
+              , enjoying nature, camping, hiking, and most importantly:{' '}
               <a href="https://fishbrain.com/anglers/scottgriv" target="_blank" rel="noreferrer">
                 fishing
               </a>
