@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   height: auto;
-  min-height: 70px;
+  min-height: 200px;
   padding: 15px;
   text-align: center;
 `;
@@ -35,17 +35,6 @@ const StyledSocialLinks = styled.div`
       svg {
         width: 20px;
         height: 20px;
-
-        // Increase size when on mobile and possibly horizontal
-        @media (max-width: 768px) {
-          width: 24px; // Slightly larger on mobile
-          height: 24px;
-        }
-
-        @media (max-width: 768px) and (orientation: landscape) {
-          width: 28px; // Even larger when horizontal
-          height: 28px;
-        }
       }
     }
   }
@@ -62,17 +51,6 @@ const StyledCredit = styled.div`
     svg {
       width: 20px;
       height: 20px;
-
-      // Increase size on mobile
-      @media (max-width: 768px) {
-        width: 24px; // Slightly larger on mobile
-        height: 24px;
-      }
-
-      @media (max-width: 768px) and (orientation: landscape) {
-        width: 28px; // Even larger when horizontal
-        height: 28px;
-      }
     }
   }
 
