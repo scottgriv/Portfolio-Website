@@ -179,6 +179,8 @@ const ArchivePage = ({ location, data }) => {
                     title,
                     tech,
                     company,
+                    codepen,
+                    prg,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -203,16 +205,6 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="links">
                         <div>
-                          {external && (
-                            <a href={external} aria-label="External Link">
-                              <Icon name="External" />
-                            </a>
-                          )}
-                          {github && (
-                            <a href={github} aria-label="GitHub Link">
-                              <Icon name="GitHub" />
-                            </a>
-                          )}
                           {ios && (
                             <a href={ios} aria-label="Apple App Store Link">
                               <Icon name="AppStore" />
@@ -221,6 +213,26 @@ const ArchivePage = ({ location, data }) => {
                           {android && (
                             <a href={android} aria-label="Google Play Store Link">
                               <Icon name="PlayStore" />
+                            </a>
+                          )}
+                          {prg && (
+                            <a href={prg} aria-label="Personal Repository Guidelines">
+                              <Icon name="PRG" />
+                            </a>
+                          )}
+                          {codepen && (
+                            <a href={codepen} aria-label="Codepen">
+                              <Icon name="Codepen" />
+                            </a>
+                          )}
+                          {external && (
+                            <a href={external} aria-label="External Link">
+                              <Icon name="External" />
+                            </a>
+                          )}
+                          {github && (
+                            <a href={github} aria-label="GitHub Link">
+                              <Icon name="GitHub" />
                             </a>
                           )}
                         </div>
@@ -259,6 +271,8 @@ export const pageQuery = graphql`
             ios
             android
             company
+            codepen
+            prg
           }
           html
         }
