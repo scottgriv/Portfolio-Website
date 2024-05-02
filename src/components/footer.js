@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   height: auto;
-  min-height: 200px;
+  min-height: 70px;
   padding: 15px;
   text-align: center;
 `;
@@ -19,7 +19,7 @@ const StyledSocialLinks = styled.div`
   @media (max-width: 768px) {
     display: block;
     width: 100%;
-    max-width: 280px;
+    max-width: 450px;
     margin: 0 auto 10px;
     color: var(--light-slate);
   }
