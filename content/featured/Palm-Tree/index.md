@@ -3,6 +3,7 @@ date: '2024-01-05'
 title: 'Palm Tree'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Palm-Tree'
+external: 'https://scottgriv.github.io/Palm-Tree'
 tech:
   - JavaScript
   - Boostrap
