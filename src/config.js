@@ -23,12 +23,12 @@ module.exports = {
       url: 'https://codepen.io/scottgriv',
     },
     {
-      name: 'Goodreads',
-      url: 'https://goodreads.com/scottgrivner',
-    },
-    {
       name: 'Medium',
       url: 'https://medium.com/@scottgrivner',
+    },
+    {
+      name: 'Goodreads',
+      url: 'https://goodreads.com/scottgrivner',
     },
     {
       name: 'Twitter',
