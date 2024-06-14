@@ -15,4 +15,4 @@ tech:
 showInProjects: true
 ---
 
-🚀 Generate GitHub CREDITS files to credit contributors, libraries, and supporters for your projects! Built using SvelteKit.
+Generate GitHub CREDITS files to credit contributors, libraries, and supporters for your projects! Built using SvelteKit.
