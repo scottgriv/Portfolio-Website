@@ -327,6 +327,7 @@ const Featured = () => {
               github
               ios
               prg
+              vscode
               external
             }
             html
@@ -360,7 +361,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, ios, prg } = frontmatter;
+            const { external, title, tech, github, cover, ios, prg, vscode } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -370,7 +371,20 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={prg ? prg : ios ? ios : external ? external : github ? github : '#'}>
+                      <a
+                        href={
+                          prg
+                            ? prg
+                            : ios
+                              ? ios
+                              : vscode
+                                ? vscode
+                                : external
+                                  ? external
+                                  : github
+                                    ? github
+                                    : '#'
+                        }>
                         {title}
                       </a>
                     </h3>
@@ -399,6 +413,11 @@ const Featured = () => {
                           <Icon name="PRG" />
                         </a>
                       )}
+                      {vscode && (
+                        <a href={vscode} aria-label="VSCode Link" className="VSCode">
+                          <Icon name="VSCode" />
+                        </a>
+                      )}
                       {external && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -414,7 +433,20 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={prg ? prg : ios ? ios : external ? external : github ? github : '#'}>
+                  <a
+                    href={
+                      prg
+                        ? prg
+                        : ios
+                          ? ios
+                          : vscode
+                            ? vscode
+                            : external
+                              ? external
+                              : github
+                                ? github
+                                : '#'
+                    }>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
