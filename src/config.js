@@ -35,6 +35,10 @@ module.exports = {
       url: 'https://twitter.com/scottgrivner',
     },
     {
+      name: 'VSCode',
+      url: 'https://marketplace.visualstudio.com/publishers/scottgriv',
+    },
+    {
       name: 'YouTube',
       url: 'https://www.youtube.com/@scottgrivner',
     },

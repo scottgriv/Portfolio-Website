@@ -1,5 +1,5 @@
 ---
-date: '2024-01-11'
+date: '2024-01-12'
 title: 'Binary Converter'
 github: 'https://github.com/scottgriv/Binary-Converter'
 external: 'https://scottgriv.github.io/Binary-Converter/'

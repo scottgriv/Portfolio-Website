@@ -1,5 +1,5 @@
 ---
-date: '2024-01-10'
+date: '2024-01-11'
 title: 'PWA Demo App'
 github: 'https://github.com/scottgriv/PWA-Demo-App'
 external: 'https://scottgriv.github.io/PWA-Demo-App/'

@@ -1,5 +1,5 @@
 ---
-date: '2024-01-14'
+date: '2024-01-15'
 title: 'CREDITS Generator'
 github: 'https://github.com/scottgriv/CREDITS-Generator'
 external: 'https://scottgriv.github.io/CREDITS-Generator/'
