@@ -289,7 +289,7 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-      <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
+      <a className="inline-link" href="https://prgportfolio.com" target="_blank" rel="noreferrer">
         view my full project list
       </a>
       {/*
