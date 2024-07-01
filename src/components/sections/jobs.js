@@ -196,7 +196,6 @@ const Jobs = () => {
           node {
             frontmatter {
               title
-              subtitle
               company
               location
               type
@@ -296,7 +295,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, subtitle, url, type, company, location, range } = frontmatter;
+              const { title, url, type, company, location, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -316,7 +315,6 @@ const Jobs = () => {
                         </a>
                       </span>
                     </h3>
-                    <p className="subtitle">{subtitle}</p>
                     <p className="location">
                       {location} | {type}
                     </p>
