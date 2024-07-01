@@ -249,7 +249,7 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      /* opacity: 0.2; /* This might make images appear blurry */
+      opacity: 0.2;
     }
 
     a {
@@ -320,7 +320,12 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  gatsbyImageData(width: 700, placeholder: NONE, formats: [AUTO, WEBP, AVIF])
+                  gatsbyImageData(
+                    width: 700
+                    quality: 90
+                    placeholder: NONE
+                    formats: [AUTO, WEBP, AVIF]
+                  )
                 }
               }
               tech
