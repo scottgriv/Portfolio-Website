@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Scott Grivner | Software Engineer, Architect, Designer, and Educator',
+    title: 'Scott Grivner | Software Engineer',
     description:
-      'Scott Grivner is a Software Engineer, Architect, Designer, and Educator skilled in a variety of Programming Languages, Best Practices and Standards, System/Software Architecture, Databases, Data Analytics, Cross Functional Leadership, Integration, and Infrastructure.',
+      'Scott Grivner is a Software Engineer skilled in a variety of Programming Languages, Best Practices and Standards, System/Software Architecture, Databases, Data Analytics, Cross Functional Leadership, Integration, and Infrastructure.',
     siteUrl: 'https://scottgrivner.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@scottgrivner',

@@ -3,10 +3,6 @@ module.exports = {
 
   socialMedia: [
     {
-      name: 'PRG',
-      url: 'https://prgportfolio.com',
-    },
-    {
       name: 'GitHub',
       url: 'https://github.com/scottgriv',
     },
@@ -19,8 +15,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/scottgrivner/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/scottgriv',
+      name: 'PRG',
+      url: 'https://prgportfolio.com',
     },
     {
       name: 'Medium',
@@ -31,16 +27,16 @@ module.exports = {
       url: 'https://goodreads.com/scottgrivner',
     },
     {
+      name: 'Codepen',
+      url: 'https://codepen.io/scottgriv',
+    },
+    {
       name: 'Twitter',
       url: 'https://twitter.com/scottgrivner',
     },
     {
       name: 'YouTube',
       url: 'https://www.youtube.com/@scottgrivner',
-    },
-    {
-      name: 'VSCode',
-      url: 'https://marketplace.visualstudio.com/publishers/scottgriv',
     },
     {
       name: 'BuyMeACoffee',
