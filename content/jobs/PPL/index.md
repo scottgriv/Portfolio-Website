@@ -6,7 +6,7 @@ subtitle: 'Now Talen Energy, Susquehanna Nuclear Power Plant'
 location: 'Berwick, PA | On-site'
 range: 'May 2012 - August 2012'
 type: 'Co-op'
-url: 'https://www.talenenergy.com/plant/susquehanna/'
+url: 'https://pplweb.com'
 ---
 
 - Now Talen Energy, Susquehanna Nuclear Power Plant
