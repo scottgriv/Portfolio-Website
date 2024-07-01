@@ -1,5 +1,5 @@
 ---
-date: '2024-01-01'
+date: '2024-01-03'
 title: 'rust-wasm_game_of_life'
 github: 'https://github.com/scottgriv/rust-wasm_game_of_life'
 external: 'https://scottgriv.github.io/rust-wasm_game_of_life/'

@@ -1,15 +1,17 @@
 ---
 date: '2024-01-10'
-title: 'SOLID-Principles'
-github: 'https://github.com/Night-Owl-Labs/SOLID-Principles'
-external: ''
+title: 'Weather Time Zone Map'
+github: 'https://github.com/scottgriv/WTZ-Map'
+external: 'https://scottgriv.github.io/WTZ-Map/'
 android: ''
 ios: ''
 codepen: ''
 prg: ''
 tech:
-  - Java
+  - Next.js
+  - APIs
+  - Maps
 showInProjects: true
 ---
 
-In software engineering, SOLID is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable.
+Discover the current weather and time zone information for any location around the world using this interactive map.
