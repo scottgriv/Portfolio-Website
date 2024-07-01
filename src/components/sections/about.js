@@ -129,7 +129,7 @@ const About = () => {
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
-
+  /*
   const currentSkills = [
     'UML Diagrams | PlantUML',
     'OOP | SOLID | DRY | Clean Code',
@@ -180,7 +180,7 @@ const About = () => {
     'Tailwind CSS',
     'Next.js',
   ];
-
+  */
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -188,11 +188,6 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello! My name is Scott and I'm a Software Engineer, Architect, Designer, and Educator
-              with over a decade of professional experience.
-            </p>
-
             <p>
               My interest in programming began at the age of 13, when I decided to create my first
               website and Windows program.
@@ -256,7 +251,7 @@ const About = () => {
               </a>
               .
             </p>
-
+            {/*
             <p>
               Here are some of the programming languages, methodologies, architectures, and
               technologies I'm familiar with:
@@ -273,6 +268,7 @@ const About = () => {
               {futureSkills &&
                 futureSkills.map((futureSkills, i) => <li key={i}>{futureSkills}</li>)}
             </ul>
+          */}
           </div>
         </StyledText>
 
