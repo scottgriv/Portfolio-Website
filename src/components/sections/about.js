@@ -235,7 +235,7 @@ const About = () => {
               architecture methodologies. I'm also an avid open-source contributor and have
               developed a{' '}
               <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
-                Portfolio and Guideline System
+                repository categorization and guideline framework
               </a>{' '}
               to help others get started in the field.
             </p>

@@ -13,4 +13,4 @@ tech:
   - iOS
 ---
 
-Recipe Resizer is a iOS Mobile Application soon to be on the iOS App Store. Easily scale recipe servings up or down, convert units of measure, and learn cooking tips from a professional Chef. With Recipe Resizer, you can save your recipes locally to your phone, share them with your friends, and export or print them out in PDF.
+Recipe Resizer is an iOS Mobile App that allows you to effortlessly resize recipe servings up or down, convert units of measure, and learn valuable culinary tips from a classically trained chef. With Recipe Resizer, you can save your recipes locally to your phone, share them with your friends, and export or print them out in PDF.
