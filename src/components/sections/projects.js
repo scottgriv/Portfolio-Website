@@ -196,6 +196,7 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
+  const prgPortfolio = useRef('https://prgportfolio.com');
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -289,11 +290,18 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+      <Link
+        className="inline-link archive-link"
+        ref={prgPortfolio}
+        target="_blank"
+        rel="noreferrer">
+        view my full project list
       </Link>
-
+      {/*
+          <Link className="inline-link archive-link" ref={prgPortfolio} target="_blank" rel="noreferrer">
+            view my full project list
+          </Link>
+        */}
       <ul className="projects-grid">
         {prefersReducedMotion ? (
           <>
@@ -324,7 +332,6 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
-
       <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
       </button>
