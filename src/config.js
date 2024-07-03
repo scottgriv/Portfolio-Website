@@ -15,8 +15,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/scottgrivner/',
     },
     {
-      name: 'PRG',
-      url: 'https://prgportfolio.com',
+      name: 'Twitter',
+      url: 'https://twitter.com/scottgrivner',
     },
     {
       name: 'Medium',
@@ -31,16 +31,12 @@ module.exports = {
       url: 'https://codepen.io/scottgriv',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/scottgrivner',
-    },
-    {
-      name: 'YouTube',
-      url: 'https://www.youtube.com/@scottgrivner',
-    },
-    {
       name: 'BuyMeACoffee',
       url: 'https://www.buymeacoffee.com/scottgriv',
+    },
+    {
+      name: 'PRG',
+      url: 'https://prgportfolio.com',
     },
     /*
     {
