@@ -1,6 +1,6 @@
 ---
 date: '2015-09-16'
-title: 'Senior Software Developer'
+title: 'Senior Software Engineer'
 company: 'Sandvik'
 subtitle: 'Npw Alleima'
 location: 'Scranton, PA | On-site'
