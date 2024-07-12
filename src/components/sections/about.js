@@ -206,8 +206,8 @@ const About = () => {
               <a href="https://www.nightowllabs.io/" target="_blank" rel="noreferrer">
                 Night Owl Labs, LLC.
               </a>
-              , a company dedicated to software development, design, consulting, and education. I
-              publish my projects on app stores, offer custom software solutions, and share
+              , a company dedicated to software development, design, consulting, and education. We
+              publish our projects on app stores, offer custom software solutions, and share
               educational content and{' '}
               <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">
                 open-source contributions on GitHub

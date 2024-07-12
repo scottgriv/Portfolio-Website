@@ -1,5 +1,5 @@
 ---
-date: '2024-01-04'
+date: '2024-01-05'
 title: 'Post.e'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Post.e'

@@ -31,6 +31,10 @@ module.exports = {
       url: 'https://codepen.io/scottgriv',
     },
     {
+      name: 'VSCode',
+      url: 'https://marketplace.visualstudio.com/publishers/scottgriv',
+    },
+    {
       name: 'BuyMeACoffee',
       url: 'https://www.buymeacoffee.com/scottgriv',
     },
