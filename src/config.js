@@ -15,10 +15,6 @@ module.exports = {
       url: 'https://www.linkedin.com/in/scottgrivner/',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/scottgrivner',
-    },
-    {
       name: 'Medium',
       url: 'https://medium.com/@scottgrivner',
     },
@@ -29,6 +25,10 @@ module.exports = {
     {
       name: 'Codepen',
       url: 'https://codepen.io/scottgriv',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/scottgrivner',
     },
     {
       name: 'VSCode',
