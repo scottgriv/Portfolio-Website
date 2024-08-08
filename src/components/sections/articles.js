@@ -54,84 +54,46 @@ const Articles = () => {
   }, []);
 
   return (
-    <StyledArticlesSection id="article" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+    <StyledArticlesSection id="articles" ref={revealContainer}>
+      <h2 className="numbered-heading overline">Published Articles</h2>
 
       <p align="center">
-        <a href="https://stackoverflow.com/users/3092847" target="blank">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0">
           <img
-            align="center"
-            src="./docs/images/socials/stack-overflow.svg"
-            alt="Stack Overflow"
-            height="40"
-            width="40"
+            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0"
+            alt="Recent Article 0"
           />
         </a>
-        &nbsp;&nbsp;
-        <a href="https://linkedin.com/in/scottgrivner/" target="blank">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1">
           <img
-            align="center"
-            src="./docs/images/socials//linkedin.svg"
-            alt="LinkedIn"
-            height="40"
-            width="40"
+            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1"
+            alt="Recent Article 1"
           />
         </a>
-        &nbsp;&nbsp;
-        <a href="https://x.com/scottgrivner" target="blank">
-          <img align="center" src="./docs/images/socials/x.png" alt="X" height="43" width="43" />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://medium.com/@scottgrivner" target="blank">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2">
           <img
-            align="center"
-            src="./docs/images/socials/medium.svg"
-            alt="Medium"
-            height="40"
-            width="40"
+            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2"
+            alt="Recent Article 2"
           />
         </a>
-        &nbsp;&nbsp;
-        <a href="https://goodreads.com/scottgrivner" target="blank">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3">
           <img
-            align="center"
-            src="./docs/images/socials/goodreads.png"
-            alt="Goodreads"
-            height="40"
-            width="40"
+            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3"
+            alt="Recent Article 3"
           />
         </a>
-        &nbsp;&nbsp;
-        <a href="https://codepen.io/scottgriv" target="blank">
-          <img
-            align="center"
-            src="./docs/images/socials/codepen.svg"
-            alt="Code Pen"
-            height="40"
-            width="40"
-          />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://marketplace.visualstudio.com/publishers/scottgriv" target="blank">
-          <img
-            align="center"
-            src="./docs/images/socials/vscode.svg"
-            alt="Visual Studio Marketplace"
-            height="40"
-            width="40"
-          />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://www.buymeacoffee.com/scottgriv" target="blank">
-          <img
-            align="center"
-            src="./docs/images/socials/bmc.png"
-            alt="Buy Me a Coffee"
-            height="40"
-            width="40"
-          />
-        </a>
-        &nbsp;&nbsp;
       </p>
     </StyledArticlesSection>
   );
