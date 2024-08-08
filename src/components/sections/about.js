@@ -242,6 +242,10 @@ const About = () => {
 
             <p>
               When I’m not typing on a laptop, you can find me{' '}
+              <a href="https://medium.com/@scottgrivner" target="_blank" rel="noreferrer">
+                writing tech articles
+              </a>
+              ,{' '}
               <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
                 reading books
               </a>
