@@ -29,44 +29,11 @@ const Articles = () => {
   return (
     <StyledArticlesSection id="articles" ref={revealContainer}>
       <h2 className="numbered-heading overline">Published Articles</h2>
-
       <p align="center">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0">
-          <img
-            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0"
-            alt="Recent Article 0"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1">
-          <img
-            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1"
-            alt="Recent Article 1"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2">
-          <img
-            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2"
-            alt="Recent Article 2"
-          />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3">
-          <img
-            src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3"
-            alt="Recent Article 3"
-          />
-        </a>
+        <img
+          src="https://github-read-medium.vercel.app/latest?username=scottgrivner&limit=6&theme=algolia"
+          alt="Medium Articles"
+        />
       </p>
     </StyledArticlesSection>
   );
