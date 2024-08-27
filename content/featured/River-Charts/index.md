@@ -3,7 +3,7 @@ date: '2024-01-06'
 title: 'River Charts'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/River-Charts'
-external: 'https://www.rivercharts.app'
+external: 'https://scottgriv.pythonanywhere.com/'
 android: ''
 ios: ''
 tech:
