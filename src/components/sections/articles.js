@@ -31,7 +31,7 @@ const Articles = () => {
       <h2 className="numbered-heading overline">Published Articles</h2>
       <p align="center">
         <img
-          src="https://github-read-medium.vercel.app/latest?username=scottgrivner&limit=6&theme=algolia"
+          src="https://github-read-medium.vercel.app/latest?username=scottgrivner&limit=6&theme=graywhite"
           alt="Medium Articles"
         />
       </p>

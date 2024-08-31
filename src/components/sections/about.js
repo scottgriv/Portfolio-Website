@@ -249,8 +249,8 @@ const About = () => {
               <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
                 reading books
               </a>
-              , playing sports, weightlifting, and spending time outdoors; enjoying nature, camping,
-              hiking, and most importantly:{' '}
+              , playing sports, boxing, weightlifting, gaming, and spending time outdoors; enjoying
+              nature, camping, hiking, and most importantly:{' '}
               <a href="https://fishbrain.com/anglers/scottgriv" target="_blank" rel="noreferrer">
                 fishing
               </a>
