@@ -9,4 +9,7 @@ type: 'Full-time'
 url: 'https://alleima.com/'
 ---
 
-- Formerly Sandvik Materials Technology
+- Led large scale enterprise projects, overseeing the entire project lifecycle for timely, on-budget delivery.
+- Coordinated cross-functionally with business units, customers, and vendors to align operations and drive results.
+- Contributed technical vision, roadmapping, and expertise at Alleima's headquarters in Stockholm, Sweden.
+- Spoke at a variety of tech conferences across the US, giving talks on enterprise technology and development.
