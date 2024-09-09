@@ -1,9 +1,9 @@
 ---
 date: '2012-06-01'
 title: 'Frontend Developer'
-company: 'PPL, Susquehanna Nuclear Power Plant'
+company: 'PPL'
 subtitle: 'Now Talen Energy, Susquehanna Nuclear Power Plant'
-location: 'Berwick, PA | On-site'
+location: 'Berwick, PA - Susquehanna Nuclear Power Plant | On-site'
 range: 'May 2012 - August 2012'
 type: 'Co-op'
 url: 'https://pplweb.com'
