@@ -66,7 +66,7 @@ const Hero = () => {
     <>
       <p>
         I’m a Software Engineer & Architect based in North Eastern Pennsylvania, USA. Currently, I
-        work as a Solutions Architect at{' '}
+        work as a Enterprise Architect at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
         </a>{' '}
