@@ -9,7 +9,7 @@ type: 'Side Venture'
 url: 'https://nightowllabs.io/'
 ---
 
-- Side Venture
+- (Side Venture)
 - Founded and operated a successful software development LLC, publishing websites, mobile apps, OSS, etc.
 - Consulted across industries to enhance operational efficiency through tailored software solutions.
 - Developed and implemented features aligned with roadmaps and informed by comprehensive customer feedback.
