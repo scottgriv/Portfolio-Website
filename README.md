@@ -101,17 +101,17 @@
 
 ### Color Reference
 
-| Color         | Hex                                                                |
-| ------------- | ------------------------------------------------------------------ |
-| Dark Navy     | ![#020c1b](https://via.placeholder.com/10/020c1b?text=+) `#020c1b` |
-| Light Navy    | ![#112240](https://via.placeholder.com/10/112240?text=+) `#112240` |
-| Lightest Navy | ![#233554](https://via.placeholder.com/10/233554?text=+) `#233554` |
-| Dark Slate    | ![#495670](https://via.placeholder.com/10/495670?text=+) `#495670` |
-| Gray          | ![#979797](https://via.placeholder.com/10/979797?text=+) `#979797` |
-| Red           | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) `#ff0000` |
-| Blue          | ![#57cbff](https://via.placeholder.com/10/57cbff?text=+) `#57cbff` |
-| Black         | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
-| White         | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
+| Color         | Hex                                                          |
+| ------------- | ------------------------------------------------------------ |
+| Dark Navy     | ![#020c1b](https://placehold.co/2x2/020c1b/020c1b) `#020c1b` |
+| Light Navy    | ![#112240](https://placehold.co/2x2/112240/112240) `#112240` |
+| Lightest Navy | ![#233554](https://placehold.co/2x2/233554/233554) `#233554` |
+| Dark Slate    | ![#495670](https://placehold.co/2x2/495670/495670) `#495670` |
+| Gray          | ![#979797](https://placehold.co/2x2/979797/979797) `#979797` |
+| Red           | ![#ff0000](https://placehold.co/2x2/ff0000/ff0000) `#ff0000` |
+| Blue          | ![#57cbff](https://placehold.co/2x2/57cbff/57cbff) `#57cbff` |
+| Black         | ![#000000](https://placehold.co/2x2/000000/000000) `#000000` |
+| White         | ![#ffffff](https://placehold.co/2x2/ffffff/ffffff) `#ffffff` |
 
 ## Resources
 
