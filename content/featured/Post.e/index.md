@@ -1,8 +1,9 @@
 ---
-date: '2024-01-05'
+date: '2024-01-04'
 title: 'Post.e'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Post.e'
+external: 'https://post-e.netlify.app/'
 tech:
   - Swift
   - Objective-C

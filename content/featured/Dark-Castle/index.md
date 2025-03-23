@@ -1,5 +1,5 @@
 ---
-date: '2024-01-04'
+date: '2024-01-05'
 title: 'Dark Castle Theme'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Dark-Castle-Theme'
