@@ -5,9 +5,10 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledArticlesSection = styled.section`
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto 100px;
   text-align: center;
+  padding: 0 20px;
 
   @media (max-width: 768px) {
     margin: 0 auto 50px;
