@@ -24,13 +24,20 @@ const StyledArticlesWrapper = styled.div`
 
 const StyledArticleImage = styled.img`
   width: 100% !important;
-  max-width: 1000px !important; /* bump it up more if needed */
+  max-width: 1000px !important;
   height: auto !important;
   border-radius: 8px !important;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;
   transition: transform 0.2s ease !important;
+`;
 
-  &:hover {
+const StyledArticleLink = styled.a`
+  width: 100% !important;
+  max-width: 1000px !important;
+  display: block !important;
+  text-decoration: none;
+
+  &:hover img {
     transform: scale(1.01) !important;
   }
 `;
@@ -40,10 +47,7 @@ const Articles = () => {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    if (prefersReducedMotion) {
-      return;
-    }
-
+    if (prefersReducedMotion) {return;}
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
@@ -51,7 +55,7 @@ const Articles = () => {
     <StyledArticlesSection id="articles" ref={revealContainer}>
       <h2 className="numbered-heading overline">Published Articles</h2>
       <StyledArticlesWrapper>
-        <a
+        <StyledArticleLink
           href="https://medium.com/@scottgrivner/understanding-software-ilities-key-attributes-of-quality-software-d4b7fadc9bbe"
           target="_blank"
           rel="noreferrer">
@@ -59,8 +63,9 @@ const Articles = () => {
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0"
             alt="Medium Article 0"
           />
-        </a>
-        <a
+        </StyledArticleLink>
+
+        <StyledArticleLink
           href="https://medium.com/@scottgrivner/how-to-secure-api-keys-in-your-projects-87e3de50a314"
           target="_blank"
           rel="noreferrer">
@@ -68,8 +73,9 @@ const Articles = () => {
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1"
             alt="Medium Article 1"
           />
-        </a>
-        <a
+        </StyledArticleLink>
+
+        <StyledArticleLink
           href="https://medium.com/@scottgrivner/effectively-managing-technical-debt-with-todo-fixme-and-other-code-reminders-e0b770f6180a"
           target="_blank"
           rel="noreferrer">
@@ -77,8 +83,9 @@ const Articles = () => {
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2"
             alt="Medium Article 2"
           />
-        </a>
-        <a
+        </StyledArticleLink>
+
+        <StyledArticleLink
           href="https://medium.com/@scottgrivner/how-to-read-xml-and-json-as-a-business-user-4243871bf00f"
           target="_blank"
           rel="noreferrer">
@@ -86,7 +93,7 @@ const Articles = () => {
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3"
             alt="Medium Article 3"
           />
-        </a>
+        </StyledArticleLink>
       </StyledArticlesWrapper>
     </StyledArticlesSection>
   );
