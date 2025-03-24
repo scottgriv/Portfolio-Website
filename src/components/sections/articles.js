@@ -23,7 +23,14 @@ const StyledArticlesWrapper = styled.div`
 
 const StyledArticleImage = styled.img`
   width: 100%;
-  max-width: 600px;
+  max-width: 800px; /* or try 900px for more impact */
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 `;
 
 const Articles = () => {
