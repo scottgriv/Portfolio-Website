@@ -1,6 +1,6 @@
 ---
 date: '2014-07-22'
-title: 'Founder & Lead Consultant'
+title: 'Founder, Lead Consultant'
 company: 'Night Owl Labs'
 subtitle: 'Self-employed'
 location: 'Clarks Summit, PA | Remote'
@@ -9,7 +9,6 @@ type: 'Side Venture'
 url: 'https://nightowllabs.io/'
 ---
 
-- (Side Venture)
 - Founded and operated a successful software development LLC, publishing websites, mobile apps, OSS, etc.
 - Consulted across industries to enhance operational efficiency through tailored software solutions.
 - Developed and implemented features aligned with roadmaps and informed by comprehensive customer feedback.
