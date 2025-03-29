@@ -65,12 +65,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a <b>Technologist</b> based in North Eastern Pennsylvania, USA. Currently, I work as a
-        Enterprise Architect at{' '}
+        I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. Currently, I work as an
+        <b>Enterprise Architect</b> at
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
-        </a>{' '}
-        where I develop and deliver effective enterprise technology solutions.
+        </a>
+        , where I focus on developing and delivering impactful enterprise technology solutions that
+        drive business value.
       </p>
     </>
   );
