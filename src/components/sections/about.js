@@ -207,7 +207,7 @@ const About = () => {
                 Night Owl Labs, LLC.
               </a>
               , a company dedicated to software development, design, consulting, and education. We
-              publish our projects on app stores, offer custom software solutions, and share
+              <b>publish our products on app stores</b>, offer consulting services, and share
               educational content and{' '}
               <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">
                 open-source contributions on GitHub
@@ -235,10 +235,13 @@ const About = () => {
             </p>
 
             <p>
-              I’ve had the privilege of seeing a live nuclear reactor during my internship, and
-              later witnessing manufacturing processes from start to finish on multiple occasions
-              across several countries through my next two roles. It’s been a rewarding and
-              eye-opening journey, to say the least.
+              I’ve had the opportunity to see a live nuclear reactor during my internship, and later
+              witness manufacturing processes from start to finish on multiple occasions across
+              several countries through my next two roles. These experiences gave me a{' '}
+              <b>deep understanding</b> of not just the physical systems, but also the technology
+              and workflows that drive the entire business process — from planning and engineering
+              to execution and delivery. It’s been a <b>rewarding and eye-opening journey</b>, to
+              say the least.
             </p>
 
             <p>
