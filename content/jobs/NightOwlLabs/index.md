@@ -1,6 +1,6 @@
 ---
 date: '2014-07-22'
-title: 'Founder, Lead Consultant'
+title: 'Founder'
 company: 'Night Owl Labs'
 subtitle: 'Self-employed'
 location: 'Clarks Summit, PA | Remote'
@@ -9,7 +9,7 @@ type: 'Side Venture'
 url: 'https://nightowllabs.io/'
 ---
 
-- Founded and operated a successful software development LLC, publishing websites, mobile apps, OSS, etc.
+- Founded and operated a successful software development LLC, publishing websites, mobile apps, OSS, consulting, etc.
 - Consulted across industries to enhance operational efficiency through tailored software solutions.
 - Developed and implemented features aligned with roadmaps and informed by comprehensive customer feedback.
 - Deployed multiple customer applications on cloud services such as Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and Google Firebase (Web App Development Platform).
