@@ -225,7 +225,7 @@ const About = () => {
               </a>
               ,{' '}
               <a href="https://www.home.sandvik/en/" target="_blank" rel="noreferrer">
-                a massive industrial engineering company
+                a 160-year-old industrial engineering company
               </a>
               , and{' '}
               <a href="https://alleima.com/" target="_blank" rel="noreferrer">
