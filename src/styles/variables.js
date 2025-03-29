@@ -9,10 +9,10 @@ const variables = css`
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
     --slate: #000000;
-    --light-slate: #ff0000;
+    --light-slate: #b20000;
     --lightest-slate: #ffffff;
-    --white: #ff0000;
-    --green: #ff0000;
+    --white: #b20000;
+    --green: #b20000;
     --green-tint: rgba(81, 81, 81, 0.1);
     --pink: #ffffff;
     --blue: #57cbff;
