@@ -55,7 +55,7 @@ const Publications = () => {
 
   return (
     <StyledPublicationSection id="publications" ref={revealContainer}>
-      <h2 className="numbered-heading overline">Publications</h2>
+      <h2 className="numbered-heading">Some Things I've Written</h2>
       <StyledPublicationWrapper>
         <StyledPublicationLink
           href="https://medium.com/@scottgrivner/understanding-software-ilities-key-attributes-of-quality-software-d4b7fadc9bbe"
