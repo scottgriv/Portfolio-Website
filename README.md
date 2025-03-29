@@ -108,7 +108,7 @@
 | Lightest Navy | ![#233554](https://placehold.co/2x2/233554/233554) `#233554` |
 | Dark Slate    | ![#495670](https://placehold.co/2x2/495670/495670) `#495670` |
 | Gray          | ![#979797](https://placehold.co/2x2/979797/979797) `#979797` |
-| Red           | ![#CC0000](https://placehold.co/2x2/CC0000/CC0000) `#CC0000` |
+| Red           | ![#E00000](https://placehold.co/2x2/E00000/E00000) `#E00000` |
 | Blue          | ![#57cbff](https://placehold.co/2x2/57cbff/57cbff) `#57cbff` |
 | Black         | ![#000000](https://placehold.co/2x2/000000/000000) `#000000` |
 | White         | ![#ffffff](https://placehold.co/2x2/ffffff/ffffff) `#ffffff` |
