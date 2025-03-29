@@ -68,7 +68,7 @@ const Hero = () => {
         I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. Currently, I work as an{' '}
         <b>Enterprise Architect</b> at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
-          <b>Alleima</b>
+          Alleima
         </a>
         , where I focus on developing and delivering impactful enterprise technology solutions that
         drive business value.
