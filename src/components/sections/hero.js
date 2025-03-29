@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. Currently, I work as an
-        <b>Enterprise Architect</b> at
+        I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. Currently, I work as an{' '}
+        <b>Enterprise Architect</b> at{' '}
         <a href="https://www.alleima.com/" target="_blank" rel="noreferrer">
           Alleima
         </a>
