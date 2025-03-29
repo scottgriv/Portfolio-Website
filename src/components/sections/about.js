@@ -189,12 +189,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My interest in programming began at the age of 13, when I decided to create my first
-              website and Windows program.
+              My interest in programming began at the <b>age of 13</b>, when I decided to create my
+              first website and Windows program.
             </p>
 
             <p>
-              A decade later, in 2012, I graduated with a bachelor's degree from{' '}
+              A decade later, in 2012, I graduated with a <b>bachelor's degree</b> from{' '}
               <a href="https://www.bloomu.edu/" target="_blank" rel="noreferrer">
                 Bloomsburg University
               </a>
@@ -223,11 +223,22 @@ const About = () => {
                 rel="noreferrer">
                 a nuclear power plant
               </a>
+              ,{' '}
+              <a href="https://www.home.sandvik/en/" target="_blank" rel="noreferrer">
+                a massive industrial engineering company
+              </a>
               , and{' '}
               <a href="https://alleima.com/" target="_blank" rel="noreferrer">
                 a huge steel manufacturing company
               </a>
               .
+            </p>
+
+            <p>
+              I’ve had the privilege of seeing a live nuclear reactor during my internship, and
+              later witnessing manufacturing processes from start to finish on multiple occasions
+              across several countries through my next two roles. It’s been a rewarding and
+              eye-opening journey, to say the least.
             </p>
 
             <p>

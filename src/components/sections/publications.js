@@ -4,7 +4,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
-const StyledArticlesSection = styled.section`
+const StyledPublicationSection = styled.section`
   width: 100%;
   margin: 0 auto 100px;
   text-align: center;
@@ -15,14 +15,14 @@ const StyledArticlesSection = styled.section`
   }
 `;
 
-const StyledArticlesWrapper = styled.div`
+const StyledPublicationWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 `;
 
-const StyledArticleImage = styled.img`
+const StyledPublicationImage = styled.img`
   width: 100% !important;
   max-width: 1000px !important;
   height: auto !important;
@@ -31,7 +31,7 @@ const StyledArticleImage = styled.img`
   transition: transform 0.2s ease !important;
 `;
 
-const StyledArticleLink = styled.a`
+const StyledPublicationLink = styled.a`
   width: 100% !important;
   max-width: 1000px !important;
   display: block !important;
@@ -42,61 +42,63 @@ const StyledArticleLink = styled.a`
   }
 `;
 
-const Articles = () => {
+const Publications = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    if (prefersReducedMotion) {return;}
+    if (prefersReducedMotion) {
+      return;
+    }
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
   return (
-    <StyledArticlesSection id="articles" ref={revealContainer}>
-      <h2 className="numbered-heading overline">Published Articles</h2>
-      <StyledArticlesWrapper>
-        <StyledArticleLink
+    <StyledPublicationSection id="publications" ref={revealContainer}>
+      <h2 className="numbered-heading overline">Publications</h2>
+      <StyledPublicationWrapper>
+        <StyledPublicationLink
           href="https://medium.com/@scottgrivner/understanding-software-ilities-key-attributes-of-quality-software-d4b7fadc9bbe"
           target="_blank"
           rel="noreferrer">
-          <StyledArticleImage
+          <StyledPublicationImage
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/0"
             alt="Medium Article 0"
           />
-        </StyledArticleLink>
+        </StyledPublicationLink>
 
-        <StyledArticleLink
+        <StyledPublicationLink
           href="https://medium.com/@scottgrivner/how-to-secure-api-keys-in-your-projects-87e3de50a314"
           target="_blank"
           rel="noreferrer">
-          <StyledArticleImage
+          <StyledPublicationImage
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/1"
             alt="Medium Article 1"
           />
-        </StyledArticleLink>
+        </StyledPublicationLink>
 
-        <StyledArticleLink
+        <StyledPublicationLink
           href="https://medium.com/@scottgrivner/effectively-managing-technical-debt-with-todo-fixme-and-other-code-reminders-e0b770f6180a"
           target="_blank"
           rel="noreferrer">
-          <StyledArticleImage
+          <StyledPublicationImage
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/2"
             alt="Medium Article 2"
           />
-        </StyledArticleLink>
+        </StyledPublicationLink>
 
-        <StyledArticleLink
+        <StyledPublicationLink
           href="https://medium.com/@scottgrivner/how-to-read-xml-and-json-as-a-business-user-4243871bf00f"
           target="_blank"
           rel="noreferrer">
-          <StyledArticleImage
+          <StyledPublicationImage
             src="https://github-readme-medium-recent-article.vercel.app/medium/@scottgrivner/3"
             alt="Medium Article 3"
           />
-        </StyledArticleLink>
-      </StyledArticlesWrapper>
-    </StyledArticlesSection>
+        </StyledPublicationLink>
+      </StyledPublicationWrapper>
+    </StyledPublicationSection>
   );
 };
 
-export default Articles;
+export default Publications;
