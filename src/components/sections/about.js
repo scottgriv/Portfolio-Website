@@ -189,7 +189,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My interest in programming began at the <b>age of 13</b>, when I decided to create my
+              My interest in programming began at the <b>age of 12</b>, when I decided to create my
               first website and Windows program.
             </p>
 
