@@ -71,6 +71,30 @@ const StyledCredit = styled.div`
   }
 `;
 
+const RotatingImage = styled.img`
+  height: 10%;
+  max-height: 100px;
+  width: auto;
+  display: block;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    animation-play-state: paused;
+    transform: rotate(-360deg) translateY(-5px) scale(1.05);
+  }
+
+  animation: rotate 10s linear infinite;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+`;
+
 const Footer = () => (
   <StyledFooter>
     <StyledSocialLinks>
@@ -89,6 +113,18 @@ const Footer = () => (
     <StyledCredit tabindex="-1">
       <a href="https://github.com/scottgriv/portfolio-website">
         <Icon name="Fork" className="svg" />
+      </a>
+      {/* Image with link under Say Hello */}
+      <a
+        href="https://github.com/scottgriv"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '10px', // Adjust this value for the gap you need
+        }}>
+        <RotatingImage src="/footer.png" alt="Footer Graphic" />
       </a>
       <br />
       <br />

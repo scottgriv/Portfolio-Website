@@ -38,7 +38,7 @@ const StyledPublicationLink = styled.a`
   text-decoration: none;
 
   &:hover img {
-    transform: scale(1.01) !important;
+    transform: scale(1.02) !important;
   }
 `;
 
