@@ -10,5 +10,6 @@ url: 'https://pplweb.com'
 ---
 
 - Now [Talen Energy](https://www.talenenergy.com/)
-- Created department websites, conducted onboard training, and resolved tech issues & tickets for over 500+ users.
-- Passed FBI background check and confidentiality, and received the PPL Well-Rounded Employee Scholarship.
+- Created department websites, conducted onboarding training, resolved technical issues for 500+ users.
+- Supported business applications for Effluents and Security, boosting system efficiency, troubleshooting.
+- Passed FBI background check and confidentiality, received the PPL Well-Rounded Employee Scholarship for outstanding performance.

@@ -9,13 +9,13 @@ type: 'Side Venture'
 url: 'https://nightowllabs.io/'
 ---
 
-- Founded and operated a successful software development LLC, publishing websites, mobile apps, OSS, consulting, etc.
-- Consulted across industries to enhance operational efficiency through tailored software solutions.
-- Developed and implemented features aligned with roadmaps and informed by comprehensive customer feedback.
-- Deployed multiple customer applications on cloud services such as Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and Google Firebase (Web App Development Platform).
-- Oversaw the full SDLC, managing Agile and Waterfall projects, creating CI/CD pipelines (DevOps).
+- Founded and operated a successful software development LLC, publishing mobile apps, websites, OSS.
+- Consulted across industries to help customers improve performance with cost-effective, creative solutions.
+- Oversaw the full SDLC and project management of complex Agile (Scrum/XP) and Waterfall projects.
+- Developed features aligned with roadmaps using AWS/GCP and DevOps CI/CD, based on customer feedback.
+- Refactored legacy codebases, containerizing monoliths into microservices using Docker, Kubernetes, Jenkins.
+- Gathered and translated technical requirements and business requirements into scalable, actionable solutions.
 - Developed SPAs, MPAs, PWAs, and APIs using Svelte, Angular, and React.js; utilized SOLID & OOP principles.
-- Refactored legacy codebases by containerizing monoliths into microservices using Docker and Kubernetes.
 - Migrated and fragmented backends from Ruby monoliths to Go microservices; managed databases (SQL, NoSQL, etc.).
 - Designed UI/UX with Figma, Adobe, built prototypes, wireframes, and created diagrams and specs using UML.
 - Implemented Test Driven Development (TDD) utilizing various test suites, and conducted integration testing through mocking and stubbing techniques.
