@@ -128,7 +128,7 @@ This project is released under the terms of the **MIT License**, which permits u
 
 ## Credits
 
-**Forked From:** [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4)
+**Forked From:** [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4) <br>
 Website design credit goes to Brittany, I modified the website to fit my needs (explained below):
 
 - Changed the color/theme using the `CSS` color reference on the bottom of this page in the `variables.js` file:
