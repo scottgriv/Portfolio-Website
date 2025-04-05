@@ -128,9 +128,7 @@ This project is released under the terms of the **MIT License**, which permits u
 
 ## Credits
 
-This repo was originally forked from:
-[Brittany Chiang's v4 repo](https://github.com/bchiang7/v4).
-
+**Forked From:** [Brittany Chiang's v4 repo](https://github.com/bchiang7/v4)
 Website design credit goes to Brittany, I modified the website to fit my needs (explained below):
 
 - Changed the color/theme using the `CSS` color reference on the bottom of this page in the `variables.js` file:
@@ -143,6 +141,11 @@ Website design credit goes to Brittany, I modified the website to fit my needs (
 - Many other small/cosmetic changes.
 
 Feel free to fork this repo but please give me proper credit by linking back to [scottgrivner.dev](https://scottgrivner.dev) as well as the original author, Brittany Chiang's website [brittanychiang.com](https://brittanychiang.com), on your own site or in your `README`. Thanks!
+
+**Author:** [Scott Grivner](https://github.com/scottgriv) <br>
+**Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
+**Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/portfolio-website) <br>
 
 ---
 
