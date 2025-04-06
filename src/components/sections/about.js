@@ -204,7 +204,7 @@ const About = () => {
             <p>
               In 2014, I launched{' '}
               <a href="https://www.nightowllabs.io/" target="_blank" rel="noreferrer">
-                Night Owl Labs, LLC.
+                Night Owl Labs
               </a>
               , a company dedicated to software development, design, consulting, and education. We{' '}
               <b>publish our products on app stores</b>, offer consulting services, and share

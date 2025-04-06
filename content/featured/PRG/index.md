@@ -1,6 +1,6 @@
 ---
 date: '2024-01-03'
-title: 'Personal Repository Guidelines (PRG)'
+title: 'Personal Repository Guidelines'
 cover: './demo.png'
 prg: 'https://www.prgportfolio.com'
 external: 'https://prgoptimized.netlify.app'

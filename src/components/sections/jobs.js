@@ -212,7 +212,7 @@ const Jobs = () => {
   const jobsData = data.jobs.edges;
 
   const [activeTabId, setActiveTabId] = useState(0);
-  const [tabFocus, setTabFocus] = useState(0);
+  const [tabFocus, setTabFocus] = useState();
   const tabs = useRef([]);
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
