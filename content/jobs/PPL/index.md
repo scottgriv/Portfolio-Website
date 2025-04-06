@@ -1,6 +1,6 @@
 ---
 date: '2012-06-01'
-title: 'Frontend Developer'
+title: 'Software Developer'
 company: 'PPL'
 subtitle: 'Now Talen Energy, Susquehanna Nuclear Power Plant'
 location: 'Berwick, PA - Susquehanna Nuclear Power Plant | On-site'

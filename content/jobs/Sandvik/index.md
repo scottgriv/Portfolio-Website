@@ -1,6 +1,6 @@
 ---
 date: '2015-09-16'
-title: 'Senior Software Developer'
+title: 'Senior Systems Developer'
 company: 'Sandvik'
 subtitle: 'Now Alleima'
 location: 'Scranton, PA | On-site'
