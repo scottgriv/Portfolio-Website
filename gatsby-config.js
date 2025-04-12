@@ -33,6 +33,7 @@ module.exports = {
           // please see the section "Additional Resources" below.
           purpose: `any maskable`,
         },
+        include_favicon: false,
       },
     },
     `gatsby-plugin-offline`,
