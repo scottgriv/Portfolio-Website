@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
 import faviconIco from '../images/favicon.ico';
-import appleIcon from '../images/home-icon.png';
 import favicon16 from '../images/favicon-16x16.png';
 import favicon32 from '../images/favicon-32x32.png';
 import favicon64 from '../images/favicon-64x64.png';
@@ -75,9 +74,6 @@ const Head = ({ title, description, image }) => {
       <link rel="icon" type="image/png" sizes="180x180" href={favicon180} />
       <link rel="icon" type="image/png" sizes="192x192" href={favicon192} />
       <link rel="icon" type="image/png" sizes="512x512" href={favicon512} />
-
-      {/* App install (not a favicon) */}
-      <link rel="apple-touch-icon" href={appleIcon} />
     </Helmet>
   );
 };
