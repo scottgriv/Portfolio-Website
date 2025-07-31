@@ -78,6 +78,14 @@ const RotatingImage = styled.img`
   display: block;
   transition: transform 0.3s ease;
 
+  @media (max-width: 768px) {
+    height: 5%;
+    max-height: 50px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
   &:hover {
     animation-play-state: paused;
     transform: rotate(-360deg) translateY(-5px) scale(1.05);
