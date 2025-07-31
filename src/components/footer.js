@@ -79,7 +79,7 @@ const RotatingImage = styled.img`
   transition: transform 0.3s ease;
 
   @media (max-width: 768px) {
-    height: 100px; !important
+    height: 100px !important;
   }
 
   &:hover {
