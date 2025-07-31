@@ -72,18 +72,14 @@ const StyledCredit = styled.div`
 `;
 
 const RotatingImage = styled.img`
-  height: 10%;
-  max-height: 100px;
+  height: 150px;
   width: auto;
+  max-height: none;
   display: block;
   transition: transform 0.3s ease;
 
   @media (max-width: 768px) {
-    height: 5%;
-    max-height: 50px;
-    width: auto;
-    display: block;
-    transition: transform 0.3s ease;
+    height: 100px; !important
   }
 
   &:hover {
