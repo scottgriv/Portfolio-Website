@@ -23,30 +23,18 @@ module.exports = {
       url: 'https://goodreads.com/scottgrivner',
     },
     {
+      name: 'Twitter',
+      url: 'https://x.com/scottgriv',
+    },
+    {
       name: 'Codepen',
       url: 'https://codepen.io/scottgriv',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/scottgrivner',
-    },
-    {
-      name: 'VSCode',
-      url: 'https://marketplace.visualstudio.com/publishers/scottgriv',
-    },
-    {
-      name: 'BuyMeACoffee',
-      url: 'https://www.buymeacoffee.com/scottgriv',
-    },
-    {
-      name: 'PRG',
-      url: 'https://prgportfolio.com',
+      name: 'Calendly',
+      url: 'https://calendly.com/scottgrivner',
     },
     /*
-    {
-      name: 'Twitter',
-      url: '',
-    },
     {
       name: 'Instagram',
       url: '',

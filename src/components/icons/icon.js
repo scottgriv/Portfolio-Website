@@ -22,6 +22,7 @@ import {
   IconYouTube,
   IconPRG,
   IconVSCode,
+  IconCalendly,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -68,6 +69,8 @@ const Icon = ({ name }) => {
       return <IconPRG />;
     case 'VSCode':
       return <IconVSCode />;
+    case 'Calendly':
+      return <IconCalendly />;
     default:
       return <IconExternal />;
   }
