@@ -2,6 +2,10 @@ module.exports = {
   email: 'scott.grivner@gmail.com',
 
   socialMedia: [
+    // {
+    //   name: 'AppStore',
+    //   url: 'https://apps.apple.com/app/id6450848695',
+    // },
     {
       name: 'GitHub',
       url: 'https://github.com/scottgriv',
