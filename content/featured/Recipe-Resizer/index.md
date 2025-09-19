@@ -5,7 +5,7 @@ cover: './demo.png'
 github: ''
 external: 'https://www.reciperesizer.com/'
 android: ''
-ios: 'https://www.reciperesizer.com/'
+ios: 'https://apps.apple.com/app/id6450848695'
 tech:
   - Swift
   - SwiftUI
