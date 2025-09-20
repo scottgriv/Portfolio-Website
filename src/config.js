@@ -3,6 +3,10 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'AppStore',
+      url: 'https://apps.apple.com/app/id6450848695',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/scottgriv',
     },
@@ -33,10 +37,6 @@ module.exports = {
     {
       name: 'Calendly',
       url: 'https://calendly.com/scottgrivner',
-    },
-    {
-      name: 'AppStore',
-      url: 'https://apps.apple.com/app/id6450848695',
     },
     /*
     {
