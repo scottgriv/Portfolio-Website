@@ -227,9 +227,13 @@ const About = () => {
               <a href="https://www.home.sandvik/en/" target="_blank" rel="noreferrer">
                 a 160-year-old industrial engineering company
               </a>
-              , and{' '}
+              ,{' '}
               <a href="https://alleima.com/" target="_blank" rel="noreferrer">
                 a huge steel manufacturing company
+              </a>
+              , and{' '}
+              <a href="https://tidiproducts.com/" target="_blank" rel="noreferrer">
+                a global manufacturer of medical devices and supplies company
               </a>
               .
             </p>

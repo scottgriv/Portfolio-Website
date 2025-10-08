@@ -4,7 +4,7 @@ title: 'Enterprise Solutions Architect'
 company: 'Alleima'
 subtitle: 'Formerly Sandvik Materials Technology'
 location: 'Scranton, PA | Hybrid'
-range: 'August 2022 - Present'
+range: 'August 2022 - September 2025'
 type: 'Full-time'
 url: 'https://alleima.com/'
 ---
