@@ -69,13 +69,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. Currently, I work as an{' '}
+        I’m a <b>Technologist</b> based in Northeastern Pennsylvania, USA. I currently work as a{' '}
         <b>Solutions Architect</b> at{' '}
         <a href="https://www.tidiproducts.com/" target="_blank" rel="noreferrer">
           TIDI Products
         </a>
-        , where I focus on developing and delivering impactful enterprise technology solutions that
-        drive business value.
+        , where I design and deliver enterprise technology solutions that drive measurable business
+        value.
       </p>
     </>
   );
