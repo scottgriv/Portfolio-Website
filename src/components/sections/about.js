@@ -207,8 +207,10 @@ const About = () => {
                 Night Owl Labs
               </a>
               , a company dedicated to software development, design, consulting, and education. We{' '}
-              <b>publish our products on app stores</b>, offer consulting services, and share
-              educational content and{' '}
+              <a href="https://apps.apple.com/app/id6450848695" target="_blank" rel="noreferrer">
+                publish our products on app stores
+              </a>
+              , offer consulting services, and share educational content and{' '}
               <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">
                 open-source contributions on GitHub
               </a>
