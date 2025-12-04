@@ -1,6 +1,6 @@
 ---
 date: '2022-08-01'
-title: 'Enterprise Solutions Architect'
+title: 'Solutions Architect'
 company: 'Alleima'
 subtitle: 'Formerly Sandvik Materials Technology'
 location: 'Scranton, PA | Hybrid'
