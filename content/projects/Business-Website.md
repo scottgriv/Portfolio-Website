@@ -1,6 +1,6 @@
 ---
 date: '2026-01-14'
-title: 'Binary Converter'
+title: 'Business Website'
 github: 'https://github.com/Night-Owl-Labs/Business-Website'
 external: 'https://bizwebsite.netlify.app/'
 android: ''
