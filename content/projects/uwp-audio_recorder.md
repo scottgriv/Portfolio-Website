@@ -1,12 +1,14 @@
 ---
-date: '2024-01-08'
-title: 'uwp-audio_recorder'
+date: '2026-01-05'
+title: 'UWP C# Audio Recorder Application'
 github: 'https://github.com/scottgriv/uwp-audio_recorder'
 external: ''
 android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - C#
   - Visual Studio

@@ -1,5 +1,5 @@
 ---
-date: '2024-01-13'
+date: '2026-01-10'
 title: 'GitHub User Info'
 github: 'https://github.com/scottgriv/GitHub-User-Info'
 external: 'https://scottgriv.github.io/GitHub-User-Info/'
@@ -7,6 +7,8 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Angular
   - Sass

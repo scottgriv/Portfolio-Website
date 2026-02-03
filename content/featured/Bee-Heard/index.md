@@ -7,6 +7,8 @@ external: 'https://beeheard.com'
 vscode: 'https://marketplace.visualstudio.com/items?itemName=night-owl-labs.bee-heard'
 android: ''
 ios: ''
+chrome: ''
+helpcenter: ''
 tech:
   - JavaScript
 ---

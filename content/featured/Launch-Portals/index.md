@@ -6,6 +6,8 @@ github: 'https://github.com/scottgriv/Launch-Portals'
 external: 'https://launchportals.netlify.app/'
 android: ''
 ios: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Gatsby.js
   - Netlify

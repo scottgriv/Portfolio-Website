@@ -7,6 +7,8 @@ external: 'https://prgoptimized.netlify.app'
 github: 'https://github.com/scottgriv/PRG-Personal-Repository-Guidelines'
 android: ''
 ios: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Markdown
   - Python

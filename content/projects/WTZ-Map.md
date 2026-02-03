@@ -1,5 +1,5 @@
 ---
-date: '2024-01-10'
+date: '2026-01-02'
 title: 'Weather Time Zone Map'
 github: 'https://github.com/scottgriv/WTZ-Map'
 external: 'https://scottgriv.github.io/WTZ-Map/'
@@ -7,10 +7,12 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
-  - Next.js
+  - Nuxt.js
+  - GitHub Pages
   - APIs
-  - Maps
 showInProjects: true
 ---
 

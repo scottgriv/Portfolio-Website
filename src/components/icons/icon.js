@@ -23,6 +23,8 @@ import {
   IconPRG,
   IconVSCode,
   IconCalendly,
+  IconChromeStore,
+  IconHelpCenter,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -71,6 +73,10 @@ const Icon = ({ name }) => {
       return <IconVSCode />;
     case 'Calendly':
       return <IconCalendly />;
+    case 'ChromeStore':
+      return <IconChromeStore />;
+    case 'HelpCenter':
+      return <IconHelpCenter />;
     default:
       return <IconExternal />;
   }

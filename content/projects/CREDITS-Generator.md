@@ -1,5 +1,5 @@
 ---
-date: '2024-01-15'
+date: '2026-01-12'
 title: 'CREDITS Generator'
 github: 'https://github.com/scottgriv/CREDITS-Generator'
 external: 'https://scottgriv.github.io/CREDITS-Generator/'
@@ -7,6 +7,8 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Svelte
   - SvelteKit

@@ -185,6 +185,8 @@ const Projects = () => {
               external
               codepen
               prg
+              chrome
+              helpcenter
             }
             html
           }
@@ -216,7 +218,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, codepen, prg, title, tech } = frontmatter;
+    const { github, external, codepen, prg, chrome, helpcenter, title, tech } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -226,6 +228,26 @@ const Projects = () => {
               <Icon name="Folder" />
             </div>
             <div className="project-links">
+              {chrome && (
+                <a
+                  href={chrome}
+                  aria-label="Chrome Web Store Link"
+                  className="chrome"
+                  target="_blank"
+                  rel="noreferrer">
+                  <Icon name="ChromeStore" />
+                </a>
+              )}
+              {helpcenter && (
+                <a
+                  href={helpcenter}
+                  aria-label="Help Center Link"
+                  className="helpcenter"
+                  target="_blank"
+                  rel="noreferrer">
+                  <Icon name="HelpCenter" />
+                </a>
+              )}
               {external && (
                 <a
                   href={external}

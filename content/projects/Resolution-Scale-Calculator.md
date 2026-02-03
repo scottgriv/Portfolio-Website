@@ -1,5 +1,5 @@
 ---
-date: '2024-01-14'
+date: '2026-01-11'
 title: 'Resolution Scale Calculator'
 github: 'https://github.com/scottgriv/Resolution-Scale-Calculator'
 external: 'https://scottgriv.github.io/Resolution-Scale-Calculator/'
@@ -7,6 +7,8 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - JavaScript
   - HTML

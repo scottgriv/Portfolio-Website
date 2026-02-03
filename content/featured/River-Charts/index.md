@@ -6,6 +6,8 @@ github: 'https://github.com/scottgriv/River-Charts'
 external: 'https://scottgriv.pythonanywhere.com/'
 android: ''
 ios: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Python
   - Django

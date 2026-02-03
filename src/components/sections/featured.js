@@ -333,6 +333,8 @@ const Featured = () => {
               ios
               prg
               vscode
+              chrome
+              helpcenter
               external
             }
             html
@@ -366,7 +368,8 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, ios, prg, vscode } = frontmatter;
+            const { external, title, tech, github, cover, ios, prg, vscode, chrome, helpcenter } =
+              frontmatter;
             const image = getImage(cover);
 
             return (
@@ -384,11 +387,15 @@ const Featured = () => {
                               ? ios
                               : vscode
                                 ? vscode
-                                : external
-                                  ? external
-                                  : github
-                                    ? github
-                                    : '#'
+                                : chrome
+                                  ? chrome
+                                  : helpcenter
+                                    ? helpcenter
+                                    : external
+                                      ? external
+                                      : github
+                                        ? github
+                                        : '#'
                         }>
                         {title}
                       </a>
@@ -423,6 +430,16 @@ const Featured = () => {
                           <Icon name="VSCode" />
                         </a>
                       )}
+                      {chrome && (
+                        <a href={chrome} aria-label="Chrome Link" className="Chrome">
+                          <Icon name="ChromeStore" />
+                        </a>
+                      )}
+                      {helpcenter && (
+                        <a href={helpcenter} aria-label="HelpCenter Link" className="HelpCenter">
+                          <Icon name="HelpCenter" />
+                        </a>
+                      )}
                       {external && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -446,11 +463,15 @@ const Featured = () => {
                           ? ios
                           : vscode
                             ? vscode
-                            : external
-                              ? external
-                              : github
-                                ? github
-                                : '#'
+                            : chrome
+                              ? chrome
+                              : helpcenter
+                                ? helpcenter
+                                : external
+                                  ? external
+                                  : github
+                                    ? github
+                                    : '#'
                     }>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>

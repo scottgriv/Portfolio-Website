@@ -181,6 +181,8 @@ const ArchivePage = ({ location, data }) => {
                     company,
                     codepen,
                     prg,
+                    chrome,
+                    helpcenter,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -215,8 +217,18 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="PlayStore" />
                             </a>
                           )}
+                          {chrome && (
+                            <a href={chrome} aria-label="Google Chrome Web Store Link">
+                              <Icon name="ChromeStore" />
+                            </a>
+                          )}
+                          {helpcenter && (
+                            <a href={helpcenter} aria-label="Help Center Link">
+                              <Icon name="HelpCenter" />
+                            </a>
+                          )}
                           {prg && (
-                            <a href={prg} aria-label="Personal Repository Guidelines">
+                            <a href={prg} aria-label="Personal Repository Guidelines Link">
                               <Icon name="PRG" />
                             </a>
                           )}
@@ -273,6 +285,8 @@ export const pageQuery = graphql`
             company
             codepen
             prg
+            chrome
+            helpcenter
           }
           html
         }

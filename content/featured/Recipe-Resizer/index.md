@@ -2,10 +2,12 @@
 date: '2024-01-01'
 title: 'Recipe Resizer'
 cover: './demo.png'
-github: ''
+github: 'https://github.com/Night-Owl-Labs/Recipe-Resizer-File-Format'
 external: 'https://www.reciperesizer.com/'
 android: ''
 ios: 'https://apps.apple.com/app/id6450848695'
+chrome: ''
+helpcenter: 'https://help.reciperesizer.com/'
 tech:
   - Swift
   - SwiftUI

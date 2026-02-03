@@ -4,6 +4,8 @@ title: 'Post.e'
 cover: './demo.png'
 github: 'https://github.com/scottgriv/Post.e'
 external: 'https://post-e.netlify.app/'
+chrome: ''
+helpcenter: ''
 tech:
   - Swift
   - Objective-C

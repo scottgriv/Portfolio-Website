@@ -1,5 +1,5 @@
 ---
-date: '2024-01-12'
+date: '2026-01-09'
 title: 'Binary Converter'
 github: 'https://github.com/scottgriv/Binary-Converter'
 external: 'https://scottgriv.github.io/Binary-Converter/'
@@ -7,6 +7,8 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - Vue.js
   - JavaScript

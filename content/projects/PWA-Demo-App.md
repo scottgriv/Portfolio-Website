@@ -1,5 +1,5 @@
 ---
-date: '2024-01-11'
+date: '2026-01-08'
 title: 'PWA Demo App'
 github: 'https://github.com/scottgriv/PWA-Demo-App'
 external: 'https://scottgriv.github.io/PWA-Demo-App/'
@@ -7,6 +7,8 @@ android: ''
 ios: ''
 codepen: ''
 prg: ''
+chrome: ''
+helpcenter: ''
 tech:
   - React
   - TypeScript

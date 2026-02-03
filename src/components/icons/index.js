@@ -21,3 +21,5 @@ export { default as IconYouTube } from './youtube';
 export { default as IconPRG } from './prg';
 export { default as IconVSCode } from './vscode';
 export { default as IconCalendly } from './calendly';
+export { default as IconChromeStore } from './chromestore';
+export { default as IconHelpCenter } from './helpcenter';

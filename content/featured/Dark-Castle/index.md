@@ -7,6 +7,8 @@ external: 'https://darkcastle.netlify.app/'
 vscode: 'https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle'
 android: ''
 ios: ''
+chrome: 'https://chromewebstore.google.com/detail/iljeoadcgeiojmaaiepfojppdjffkahb'
+helpcenter: ''
 tech:
   - HEX
   - RGB
