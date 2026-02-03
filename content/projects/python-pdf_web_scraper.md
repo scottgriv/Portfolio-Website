@@ -1,5 +1,5 @@
 ---
-date: '2026-01-03'
+date: '2026-01-04'
 title: 'Python PDF Web Scraper'
 github: 'https://github.com/scottgriv/python-pdf_web_scraper'
 external: ''

@@ -1,5 +1,5 @@
 ---
-date: '2026-01-11'
+date: '2026-01-12'
 title: 'Resolution Scale Calculator'
 github: 'https://github.com/scottgriv/Resolution-Scale-Calculator'
 external: 'https://scottgriv.github.io/Resolution-Scale-Calculator/'

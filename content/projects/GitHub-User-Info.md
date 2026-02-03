@@ -1,5 +1,5 @@
 ---
-date: '2026-01-10'
+date: '2026-01-11'
 title: 'GitHub User Info'
 github: 'https://github.com/scottgriv/GitHub-User-Info'
 external: 'https://scottgriv.github.io/GitHub-User-Info/'

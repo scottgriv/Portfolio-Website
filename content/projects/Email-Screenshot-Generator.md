@@ -1,5 +1,5 @@
 ---
-date: '2026-01-13'
+date: '2026-01-14'
 title: 'Email Screenshot Generator'
 github: 'https://github.com/scottgriv/Email-Screenshot-Generator'
 external: 'https://scottgriv.github.io/Email-Screenshot-Generator/'

@@ -1,5 +1,5 @@
 ---
-date: '2026-01-06'
+date: '2026-01-07'
 title: 'Data Fisher'
 github: 'https://github.com/Night-Owl-Labs/Data-Fisher'
 external: ''

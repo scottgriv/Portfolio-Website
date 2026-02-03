@@ -1,5 +1,5 @@
 ---
-date: '2026-01-04'
+date: '2026-01-05'
 title: 'Batch File Toolbox'
 github: 'https://github.com/scottgriv/batch-file-toolbox'
 external: ''

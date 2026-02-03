@@ -1,5 +1,5 @@
 ---
-date: '2026-01-07'
+date: '2026-01-08'
 title: 'Tab Anchor'
 github: 'https://github.com/Night-Owl-Labs/Tab-Anchor'
 external: ''

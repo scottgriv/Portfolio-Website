@@ -1,5 +1,5 @@
 ---
-date: '2026-01-01'
+date: '2026-01-02'
 title: 'Obsidian Idea Portal'
 github: 'https://github.com/scottgriv/Obsidian-Idea-Portal'
 external: ''

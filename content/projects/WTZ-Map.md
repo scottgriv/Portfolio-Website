@@ -1,5 +1,5 @@
 ---
-date: '2026-01-02'
+date: '2026-01-03'
 title: 'Weather Time Zone Map'
 github: 'https://github.com/scottgriv/WTZ-Map'
 external: 'https://scottgriv.github.io/WTZ-Map/'
