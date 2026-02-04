@@ -7,6 +7,7 @@ location: 'Scranton, PA | Hybrid'
 range: 'August 2022 - September 2025'
 type: 'Full-time'
 url: 'https://alleima.com/'
+subtitleUrl: 'https://sandvik.com/'
 ---
 
 - Led large-scale global enterprise projects, managing the entire lifecycle for timely, on-budget delivery.

@@ -2,11 +2,12 @@
 date: '2014-07-22'
 title: 'Founder'
 company: 'Night Owl Labs'
-subtitle: 'Self-employed'
+subtitle: ''
 location: 'Clarks Summit, PA | Remote'
 range: 'July 2014 - Present'
 type: 'Side Venture'
 url: 'https://nightowllabs.io/'
+subtitleUrl: ''
 ---
 
 - Founded and operated a successful software development LLC, publishing mobile apps, websites, OSS.

@@ -7,6 +7,7 @@ location: 'Neenah, WI | Remote'
 range: 'September 2025 - Present'
 type: 'Full-time'
 url: 'https://tidiproducts.com/'
+subtitleUrl: ''
 ---
 
 - TBA.

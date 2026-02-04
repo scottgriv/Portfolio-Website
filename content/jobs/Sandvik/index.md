@@ -7,6 +7,7 @@ location: 'Scranton, PA | On-site'
 range: 'September 2013 - August 2022'
 type: 'Full-time'
 url: 'https://sandvik.com/'
+subtitleUrl: 'https://alleima.com/'
 ---
 
 - Built hundreds of integrations between enterprise applications, CRM, MES, and cloud SaaS using REST APIs.

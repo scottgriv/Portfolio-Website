@@ -389,10 +389,10 @@ const Featured = () => {
                                 ? vscode
                                 : chrome
                                   ? chrome
-                                  : helpcenter
-                                    ? helpcenter
-                                    : external
-                                      ? external
+                                  : external
+                                    ? external
+                                    : helpcenter
+                                      ? helpcenter
                                       : github
                                         ? github
                                         : '#'
@@ -435,14 +435,14 @@ const Featured = () => {
                           <Icon name="ChromeStore" />
                         </a>
                       )}
-                      {helpcenter && (
-                        <a href={helpcenter} aria-label="HelpCenter Link" className="HelpCenter">
-                          <Icon name="HelpCenter" />
-                        </a>
-                      )}
                       {external && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
+                        </a>
+                      )}
+                      {helpcenter && (
+                        <a href={helpcenter} aria-label="HelpCenter Link" className="HelpCenter">
+                          <Icon name="HelpCenter" />
                         </a>
                       )}
                       {github && (
@@ -465,10 +465,10 @@ const Featured = () => {
                             ? vscode
                             : chrome
                               ? chrome
-                              : helpcenter
-                                ? helpcenter
-                                : external
-                                  ? external
+                              : external
+                                ? external
+                                : helpcenter
+                                  ? helpcenter
                                   : github
                                     ? github
                                     : '#'

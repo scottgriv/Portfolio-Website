@@ -30,7 +30,7 @@ const Tiles = styled.section`
 const Tile = styled.article`
   grid-column: span 6;
   background: var(--light-navy);
-  border-radius: 12px;
+  border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
@@ -129,7 +129,7 @@ const Dot = styled.span`
 const Tag = styled.span`
   font-size: 12px;
   padding: 3px 8px;
-  border-radius: 999px;
+  border-radius: var(--border-radius);
   background: rgba(100, 255, 218, 0.1);
   color: var(--green);
 `;
@@ -163,7 +163,7 @@ const ButtonLink = styled.a`
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   border: 1px solid var(--green);
   color: var(--black);
   background: var(--navy);
