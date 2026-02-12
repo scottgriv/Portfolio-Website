@@ -252,29 +252,32 @@ const About = () => {
 
             <p>
               In my spare time, I enjoy learning new programming languages, frameworks, and
-              architecture methodologies. I'm also an avid open-source contributor and have
-              developed a{' '}
+              architecture methodologies. I'm also an avid open-source contributor on{' '}
+              <a href="https://github.com/scottgriv" target="_blank" rel="noreferrer">
+                GitHub
+              </a>{' '}
+              and have developed a{' '}
               <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
                 repository categorization and guideline framework
               </a>{' '}
-              to help others get started in the field.
+              to help others get started in the field. Beyond open source, you’ll often find me on{' '}
+              <a href="https://stackoverflow.com/u/3092847" target="_blank" rel="noreferrer">
+                Stack Overflow
+              </a>
+              , helping fellow developers tackle some of the toughest problems on the web.
             </p>
 
             <p>
               When I’m not typing on a laptop, you can find me{' '}
-              <a href="https://medium.com/@scottgrivner" target="_blank" rel="noreferrer">
-                writing tech articles
-              </a>
-              ,{' '}
               <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
                 reading books
               </a>
-              , playing sports, boxing, weightlifting, gaming, and spending time outdoors; enjoying
-              nature, camping, hiking, and most importantly:{' '}
+              , playing sports, boxing, weightlifting, gaming, and spending time outdoors (the
+              opposite of technology); enjoying nature, camping, hiking, and most importantly:{' '}
               <a href="https://fishbrain.com/anglers/scottgriv" target="_blank" rel="noreferrer">
                 fishing
               </a>
-              .
+              ....
             </p>
             {/*
             <p>
