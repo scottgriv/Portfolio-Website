@@ -25,6 +25,7 @@ import {
   IconCalendly,
   IconChromeStore,
   IconHelpCenter,
+  IconRSS,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -77,6 +78,8 @@ const Icon = ({ name }) => {
       return <IconChromeStore />;
     case 'HelpCenter':
       return <IconHelpCenter />;
+    case 'RSS':
+      return <IconRSS />;
     default:
       return <IconExternal />;
   }

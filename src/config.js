@@ -38,6 +38,10 @@ module.exports = {
       name: 'Calendly',
       url: 'https://calendly.com/scottgrivner',
     },
+    {
+      name: 'RSS',
+      url: 'https://medium.com/feed/@scottgrivner',
+    },
     /*
     {
       name: 'Instagram',
