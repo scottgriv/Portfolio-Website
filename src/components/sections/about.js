@@ -243,7 +243,7 @@ const About = () => {
             <p>
               I’ve had the opportunity to see a live nuclear reactor during my internship, and later
               witness manufacturing processes from start to finish on multiple occasions across
-              several countries through my next two roles. These experiences gave me a{' '}
+              several countries through my next three roles. These experiences gave me a{' '}
               <b>deep understanding</b> of not just the physical systems, but also the technology
               and workflows that drive the entire business process — from planning and engineering
               to execution and delivery. It’s been a <b>rewarding and eye-opening journey</b>, to
