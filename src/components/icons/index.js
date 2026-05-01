@@ -24,3 +24,4 @@ export { default as IconCalendly } from './calendly';
 export { default as IconChromeStore } from './chromestore';
 export { default as IconHelpCenter } from './helpcenter';
 export { default as IconRSS } from './rss';
+export { default as IconObsidian } from './obsidian';

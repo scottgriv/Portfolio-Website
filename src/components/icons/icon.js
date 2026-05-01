@@ -26,6 +26,7 @@ import {
   IconChromeStore,
   IconHelpCenter,
   IconRSS,
+  IconObsidian,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -80,6 +81,8 @@ const Icon = ({ name }) => {
       return <IconHelpCenter />;
     case 'RSS':
       return <IconRSS />;
+    case 'Obsidian':
+      return <IconObsidian />;
     default:
       return <IconExternal />;
   }

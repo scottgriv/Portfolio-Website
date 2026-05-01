@@ -333,6 +333,7 @@ const Featured = () => {
               ios
               prg
               vscode
+              obsidian
               chrome
               helpcenter
               external
@@ -368,8 +369,19 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, ios, prg, vscode, chrome, helpcenter } =
-              frontmatter;
+            const {
+              external,
+              title,
+              tech,
+              github,
+              cover,
+              ios,
+              prg,
+              vscode,
+              obsidian,
+              chrome,
+              helpcenter,
+            } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -387,15 +399,17 @@ const Featured = () => {
                               ? ios
                               : vscode
                                 ? vscode
-                                : chrome
-                                  ? chrome
-                                  : external
-                                    ? external
-                                    : helpcenter
-                                      ? helpcenter
-                                      : github
-                                        ? github
-                                        : '#'
+                                : obsidian
+                                  ? obsidian
+                                  : chrome
+                                    ? chrome
+                                    : external
+                                      ? external
+                                      : helpcenter
+                                        ? helpcenter
+                                        : github
+                                          ? github
+                                          : '#'
                         }>
                         {title}
                       </a>
@@ -428,6 +442,11 @@ const Featured = () => {
                       {vscode && (
                         <a href={vscode} aria-label="VSCode Link" className="VSCode">
                           <Icon name="VSCode" />
+                        </a>
+                      )}
+                      {obsidian && (
+                        <a href={obsidian} aria-label="Obsidian Link" className="Obsidian">
+                          <Icon name="Obsidian" />
                         </a>
                       )}
                       {chrome && (
@@ -463,15 +482,17 @@ const Featured = () => {
                           ? ios
                           : vscode
                             ? vscode
-                            : chrome
-                              ? chrome
-                              : external
-                                ? external
-                                : helpcenter
-                                  ? helpcenter
-                                  : github
-                                    ? github
-                                    : '#'
+                            : obsidian
+                              ? obsidian
+                              : chrome
+                                ? chrome
+                                : external
+                                  ? external
+                                  : helpcenter
+                                    ? helpcenter
+                                    : github
+                                      ? github
+                                      : '#'
                     }>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
